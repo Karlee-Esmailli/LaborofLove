@@ -1,0 +1,2329 @@
+VAR stress = 0
+VAR WP = 0
+VAR Pop = 0 
+VAR money = 0 
+VAR InterviewOutfit = ""
+
+-> start
+ === start ===
+
+// A settings config before the game begins. You can change this anytime in Settings. 
+
+How sexy do you want it? 
+
+* Classy Mode 
+    No funny business. But be warned: some kissing and thirstiness. 
+* Trashy Mode
+    Softcore. Sex scenes end early. Streamer friendly. 
+* Depraved Mode
+    Full penetraysh, for all the pervs. 
+
+TODO: Figure out how to get descriptions to display under certain options before the player selects. This one, the outfits. 
+// Press “Play” button.
+ 
+- * [Play.] 
+-> quotes
+
+=== quotes
+
+// Two quotes that will appear on a black screen, to set the tone for the entire work 
+
+“...In the collective unconscious of all women are psychic wounds so deep and raw that even to brush against them is to become a conduit for their primal violence… We self-censor our every reaction, debating endlessly with ourselves over which thoughts are permitted and which are forbidden or unclean… Perhaps that’s why, after so long spent boiling within us under such terrible and unrelenting pressure, women’s desires hold such power to fascinate and terrify.” 
+– Gretchen Felker-Martin
+
+“Want to move ahead
+But the boss won't seem to let me
+I swear sometimes that man is
+Out to get me”
+– Dolly Parton
+
+
+TODO: formatting on the dolly parton lyrics. clicking through after the first quote and the second quote appears. *[] that is just a click, no text? 
+
+
+* [>>] 
+-> Opening_Monologue
+
+
+=== Opening_Monologue
+    = OMonologue_Part_One
+Today is the most important day of my life. 
+
+/* Upon the blank black screen, a pair of striking blue eyes appear. They stare into the reader's soul. This eyes-only motif will be used later in the game, for the Cognos AI. */
+
+I prayed to God for a good hair day, and she absolutely delivered. 
+
+// The rest of Rosie's face appears. She does, indeed, have amazing hair. She is staring into her mirror, sitting at a vanity in a hotel room. It is morning. She is preparing for her interview, doing her makeup. She has a stern, focused look on her face. 
+
+// We see the dialogue box appear on the right of the screen. This will house all narration for the game. Music starts. 
+
+It’s the final Cognos interview. I want it bad. I want it soooooooo bad, and the bastards know it. 
+
+I was contacted by a recruiter back in September. I live across the country, but it’s a strictly in-person position. The recruiter specified: “Remote work is an absolute non-starter for this role. We hope that’s okay – if you land the position, we offer stipends for relocation!” Of course that’s okay, sweet tech daddy. Please, daddy, give me the chance to flush my entire life down the toilet and start over in your warm corporate embrace. 
+
+Cognos has been vetting me for two and half months now. They’ve put me through four rounds of Zoom interviews. Job simulation exercises, personality tests, and I know these motherfuckers ran a background check on me. Too bad I’m squeaky clean. And I’m happy to jump through their hoops like some kind of Cirque du Soleil freak. 
+
+If they say Jump, I’ll say: “Thank you for this professional development opportunity” and hop like a business bunny. 
+
+If they say, Fly out for your final interview on your boyfriend’s birthday, I’ll say: “Of course, here’s my resume on cedar-eucalyptus-peppercorn scented paper.”
+
+It's all worth it. Because if I get a job at Cognos, it changes my career forever. But… 
+
+Let’s be honest. It’s very, very unlikely that I’ll get this job. 
+
+ROSIE: Fuck. Fuck fuck fuck. 
+
+* [>>] 
+-> OMonologue_Part_Two
+
+
+    = OMonologue_Part_Two
+I’ve been in the little leagues of tech for the last six years, treading water, climbing the ladder at small start-ups, unprofitable remoras that feed on the big sharks. But those sharks are too big. Google has 200,000 employees. The most prestigious and profitable organizations have the tallest ladders, and I grow impatient. I am twenty-seven years old. I no longer have the raw subservience necessary to take an entry-level position. And it’s pointless anyway – I could give fifteen years to a place like Google and barely eek my way to middle management, and still have no stock options. No, no, no. No way. 
+
+Cognos is different. Cognos is perfect. Cognos is my unicorn. 
+
+The company is fourteen years old and based in Los Altos. They do neural networks, deep learning, backpropagation, all that shit. Exclusive, bespoke machine learning for huge clients. They own tons of huge data-labeling subsidiaries, but Cognos itself only has about 150 employees, from what I can tell. Relatively tiny, but still privately owned, and MASSIVELY profitable. Pre-IPO, with the current valuation somewhere around 8.6 billion. 
+
+// Rosie’s expression changes again, hearts in her eyes, she is drooling slightly. 
+
+You heard that right. 8.6 BILLYYYYYYYYyyyyy. Pre-IPO means that it’s not too late to get my perfectly manicured mitts on some delicious stock options. This is real fucking money we’re talking about, and I’m in America, baby. Nothing feels better than money. I've gotten just enough of a taste to know that it's the whole point. I’ll never be satisfied with being upper-middle class. I want to transcend. I want to be so rich I lose touch with reality. Lizard brain rich. So rich that I jump in front of a bus because I’m confident I can afford the medical bills. 
+
+Rosie: *sigh*
+
+But like I said, it’s unlikely I’ll get it. 
+
+ROSIE: (whispering) I am low-keyyyy underqualifieddddddddddd.
+
+* [>>] 
+-> OMonologue_Part_Three
+
+    = OMonologue_Part_Three
+Cognos is out of my league to begin with, AND it’s a Product Lead position. Product is the varsity team of any tech company. My whole career has been in Client work (gasp!) and Sales (double gasp!) and before that… Customer Service. Aka junior varsity, and junior junior junior varsity. Does JJJV exist? I never did sports. I was too busy blowing three consecutive Prom Kings.
+
+Unlike high school, this time I actually had to put effort into my homework. I’ve created a comprehensive dossier on Cognos, everything I could find. But I know how this story ends: “You’ve got potential. Go make the rounds in mid-level positions and come back to us.” 
+
+Rosie: NO!
+
+I won’t let them do it. 
+
+Rosie: Let’s see a smile, baby girl. 
+
+// Her face is lit up in a full, all-teeth smile. She is practicing her smile for the interview. 
+
+Rosie: Who could say no to you? 
+
+At least I’m pretty. That’ll help. It always does. 
+
+// Rosie’s face turns down again. This time, she is thinking. 
+
+It’s tricky. You can absolutely be too pretty. I’ll seem too young, too unserious. It’s that immediate, unconscious, chemical resentment we all feel towards the youthful and beautiful and feminine. Those judgments are waiting for me, looming in the shadows of my interviewer’s mind, but I’m ready for that. It’s all about making a good impression. I need to be giving Culture Fit. 
+
+Now, the most important question of all: What am I going to wear to the interview? I brought three different outfits, alike in dignity. It’s time to make the final call. 
+
+// We see Rosie standing in front of a full-length mirror. The player can preview each outfit before choosing. After choosing, you’ll read the corresponding description for the outfit you picked. Rosie will wear that outfit for the rest of the day. This is her starting outfit inventory, plus two more casual looks. 
+
+* [The Suit]
+    This one goes out to the Pantsuit Nation girlies. They say dress for the job you want, and I want to be gainfully employed as a rich bitch. A suit says I can play with the big boys. 
+    
+    Speaking of boys, there’s something hot about the way suits are usually for men. I like how this blazer hugs my waist. It took me forever to find a suit that wasn’t too boxy. The tie is snug around my neck. It all feels formal, and I love that. I feel sharp like a poisoned needle. 
+      ~ InterviewOutfit = "Suit"
+* [The Dress]
+// The dress is pink. 
+    Scientifically, this is the best interview dress. It’s the one all the girlies wear when they’re interviewing people on the red carpet. You see it on talk shows a lot, too. It just looks good on everyone – and by everyone, I mean me and all the other hot women. I can pull off this pink because my hair is so blonde it actually has blue undertones. I’m just blessed like that. 
+    
+    The skirt is tight, but professional. The top is sharp and modern. You’d think it’d be too conservative, but I’m showing insanely erotic amounts of left clavicle with this. 
+      ~ InterviewOutfit = "Dress"
+      
+* [Glasses, but make it Slutty]
+    I’m smart, so I know how important it is to other people what I look like. My glasses are giving librarian, but the neckline of my sweater is giving I’m here to seduce the other librarian.
+    
+    And I know my long legs are going to make an impression, because when I hang my arms straight down, this skirt ends above my fingertips. Therefore it doesn’t pass the “purity test” the nuns made us do at my Catholic high school. In my defense, I just got press-ons.
+    ~ InterviewOutfit = "Glasses"
+
+// === after you’ve picked your outfit
+- I look in the mirror and I see a perfect 10 staring back at me. 
+
+// A look of determination. Rosie applies her lipstick.
+
+Fuck it. I can do this. I shake off the nerves. No more foreplay. I know what the stakes are. When they hire me, I'll definitely make more money than my stupid Dad, which is the most awesome and hilarious thing in the world. 
+
+Truthfully, I’d choke the life out of a baby panda with my bare hands to get this job. When I want something this bad, it feels inevitable. I’m getting an offer today. I can feel it. 
+
+// fade to black
+
+* [>>] 
+-> arriving_to_Cognos
+
+=== arriving_to_Cognos === 
+
+// A backdrop of Los Altos skyline. 
+
+I take an Uber to Cognos headquarters. No public transit for me, obviously. I might get sweaty on the bus, and then I’ll sweat off the makeup on my upper lip. It’s gotta be an air-conditioned car. 
+
+The driver cracks the window. Since I got to Los Altos, I can’t stop noticing how weird it smells here. The smog is pervasive, so there’s always a slight whiff of bleach in the air, like a menacingly clean bathroom. I look out the window, and see a person living in a tent on the street. They seem to have a functional ring light. 
+
+Before long, I arrive at the gates of Heaven – I mean, the Cognos building! Squeeeeeeeeee!! :) 
+
+* [>>]
+
+// We see the Cognos lobby. 
+
+I step through the big double doors, and see a cute little reception hub. The receptionist is nice and has me sign in on a tablet. The tablet scans my fingerprints and takes my picture. I throw up some peace signs. God, I’m cute. 
+
+While I’m waiting to be fetched, I observe the office around me to get a read on the vibe. I’ve seen virtual tours of the space, but jesus christ, there’s an OBSCENE amount of exposed brick. It’s a fashionable backdrop to the rest of this fashionable office utopia. Beyond the reception hub, there’s a short staircase down to a big open floor. I see a dreamy coffee bar (with a dreamy barista!!), a kitchenette with bar stools, little booths, big lunch tables, and some arcade machines, all nestled within individual shipping containers. It looks like there’s more beyond that zone – elevators to the other floors? More rooms? – but that’s all I can really see from here. 
+
+Cognos employees are filtering in, but it’s 11am, so it’s not that packed. I carefully study their fashion. On most of the women, I’m seeing effortless (but expensive) smocks, crisp work blouses, and dark jeans. Anthropologie core. Some men in shorts, some in short-sleeve button-ups, a few in flip-flops. A beanie here, a tropical Hawaiian dad shirt there, NPR tote bags everywhere. It all reeks of cool. Not, like, Japanese Shibuya Harajuku street fashion cool. Just cool relative to the average blah office job. Work cool. I don’t see anyone that looks older than 40. 
+
+{ InterviewOutfit:
+- "Suit": Am I overdressed? No, no, that’s silly. It’s an interview. I want to look like I’m trying. I’ll worry about blending more when I’m actually hired. ->Meet_Patrick
+- else: ->Meet_Patrick
+}
+
+
+=== Meet_Patrick
+Patrick: Rosie Woods? 
+
+Rosie: Hi! You’re Patrick, right? 
+
+Patrick: Yes, the one and only! Patrick McMullen, Human Resources. 
+
+Rosie: Soooooooooooooooo good to meet you, Patrick! It’s nice to finally put a face to the name – or rather, the email address. 
+
+Patrick: Same! How are you? How was the flight??
+
+Rosie: It was wonderful. 
+
+It really was. I took an edible beforehand, and I think the flight attendant could tell. She just smiled and turned on one of those YouTube videos of dancing fruit, the ones they make to calm babies down?
+
+Rosie: First class was a nice touch, by the way. 
+
+Patrick: Only the best. Speaking of which… Here's your swag! 
+
+Patrick passes me some pins and laptop stickers, emblazoned with the Cognos logo. 
+
+Rosie: Aww, they’re so cute! Thanks! 
+
+Patrick: Aren’t they adorable? And if you’re hired, you’ll get a Cognos hoodie too. 
+
+Rosie: Sky blue is my color, Patrick! Now I’m extra motivated. 
+
+Patrick: Good. I’m rooting for you today. 
+
+Patrick: Oh, and since we’re doing the full tour, you’ll need to sign an NDA. You know how it is in this cah-RAY-zee industry, right? 
+
+Patrick slides me another tablet from reception. I pretend to read the complicated legal document in front of me. After an appropriate amount of time, I sign. 
+
+Rosie: I won’t say a word, even if I witness you murder someone today. 
+
+Patrick: Perf. I might actually murder someone… if they TALK to me before I’ve had my COFFEE! 
+
+Rosie: Ahahahahahaha! Patrick, you are a riot!!
+
+Don’t judge. It’s an interview. I need to be laughing at EVERY joke I hear today, obvi. 
+
+* [>>] 
+
+Patrick: Speaking of coffee… let’s start with some lattes. 
+
+I follow Patrick down the short flight of stairs. 
+
+Patrick: So, you saw the lobby – 24/7 security, just to make sure everyone feels safe. And this is the Hub level! The coffee bar is open during business hours, so people tend to grab a drink on the way in. Free of charge, obviously. 
+
+Patrick grabs two lattes from the handsome barista, and we cop a spot at one of the tables.  
+
+Rosie: This space is so gorgeous. 
+
+Patrick: I know, right? Cognos owns the whole building. I joined the team three years ago, right after we moved from the old office. Can you believe we used to work in some schlubby little two-floor rental? Construction was on and off for years while we were outfitting the entire space here, but that’s all done now. We’re a fully functioning paradise. 
+
+// Rosie smiles. 
+Rosie: Seems like paradise to me. 
+
+Patrick: Anyway, I’ve got a great day all laid out for you.
+
+Rosie: Oooooh! Walk me through it.
+
+Patrick: First, I’m going to give you the official tour of HQ, and then you’ve got three interviews. 
+
+Patrick: It’s a great line-up, too. We like to have prospects talk to a diverse group of our employees, from multiple levels within the company. You’re interviewing with… 
+
+Patrick: Judith Revell and Jaxon Reid, two Team Leads from Product. 
+
+These two didn’t come up in my research. I commit the names to memory – Jaxon, Judith. Jaxon, Judith. They’re likely mid-level, maybe even the people I’d be working with day-to-day. Jaxon, Judith. 
+
+Patrick: We’ll do lunch at the canteen, and then you’ll be speaking to one of our Customer Success Leads…   
+
+Ah. Classic move. They’re having me talk to someone from a lower division to see if I’m down to Earth despite my (potential) elite status. 
+
+Patrick: And you’re ending the day with a HUGE get… Amir Rasatogi, the Company President! 
+
+Jackpot. 
+
+Rosie: That IS huge!! Thanks, Patrick! 
+
+I can hardly suppress a smug grin. I researched the SHIT out of Rasatogi. I know he’s married, I know he has two kids and a German Shepherd. Their names are Nya, Harper, and Fiddles, respectively. I know most of his professional background and I made it through FOUR unlistenable podcast episodes of him being interviewed. I know his favorite buzzwords are “calibrating” and “equity.” 
+
+Patrick: Yeah, interview with the President! No biggie, right? Just doing my job. 
+
+Rosie: And you do it so well. 
+
+Patrick: Let’s get the tour going, yeah? 
+
+Rosie: Yes! I can’t wait.  
+
+* * [>>]  -> tour
+
+=== tour
+
+Patrick shows me the rest of the Hub level. There’s a huge amphitheater for their All Hands meetings. It’s fancier than any movie theater I’ve ever seen, and I used to go to the nice mall in my town. 
+
+Further back, there’s a hallway with eight elevators. We hop on one, and Patrick hits the button for the second floor. 
+
+// We see Rosie and Patrick on the Cognos elevator! 
+
+Patrick: So there are six floors total, including the Hub. It’s all organized by division. Floor Two is Community Support, Moderation, and the Building Maintenance Staff. Sales, Merchant Services, and Marketing are on Three. 
+
+Patrick: And youuuuu’d be on the Fourth Floor! Product is on four. 
+
+Rosie: Lovely. Product gets its own floor? 
+
+Patrick: Yep! Because it’s the biggest team, and also because a lot of our Devs need quiet.  
+
+Rosie: Of course. That makes sense, considering how much focus is required for programming. 
+
+Patrick: Exactly. That being said! One of our core values at Cognos is cross-pollination within our work family. 
+
+Cross-pollination within the family? I am briefly reminded of the step-brother erotica I read last night. 
+
+Patrick: In order to encourage cohesion across the whole company, each floor has its own special amenities, free to use for any employee. It’s a great way to meet your coworkers! We encourage people to try out every floor.
+
+// We switch to a generic office background. No need for specific art for all the locations below described, though ideally we’ll switch to a single background per floor. Some of these are special locations we’d likely need background art for anyways. 
+
+Patrick walks me through Floor Two. About half of the floor is just desk space, and it’s tasteful. Plentiful outlets, dangling from the ceiling on thick cords. The desks are a little crammed together. Ergonomic-looking desk chairs alongside bean bags, stability balls, and lots of little breakaway spaces with cozy armchairs. 
+
+Patrick: As far as amenities, on Floor Two we’ve got the gym, the yoga room, and the massage rooms. Our massage therapists are in office every Thursday. Plus locker rooms, and – my personal favorite – the health center, where you can find our onsite doctor. 
+
+An onsite doctor??! I knew the office was going to be luxurious, but they’re literally catering to my every human need. I feel like Karl Lagerfeld’s cat! I feel like Choupette up in here!!
+
+The Third Floor is somehow even crazier. There’s a rock climbing wall. Vending machines with (free!) laptop chargers, SD cards, headphones, keyboards, and any dongle you could dream of. The desks are a little nicer on this level. We walk by a massive cafeteria. I can smell… fresh-baked blueberry muffins. Wow, I have such a good sense of smell!! Add that to my long list of talents. :)
+
+Patrick: And one last thing for this floor… I’m not sure if you’re an animal person, but there’s a – 
+
+Dog: ROOF!! ROOF ROOF ROOF!!!!!!! 
+
+* [>>] 
+
+Rosie: AAAAAAAAAAAAAAAAAHHHHhhhhhhhmaazing! Awwwww, it’s so cute! 
+
+For the first time all day, my stomach clenches with visceral disgust and disappointment. It’s a fucking dog office. I feared as much. 
+
+Patrick: Oh, hi, Pancake! Where’s Joon? 
+
+// Joon, introverted programmer, appears. 
+
+Joon: PANCAKE, NO! Bwaaaaaaa, sorry about that! He gets excited around new people. I’m just dropping him off at daycare. Pancake, down! 
+
+Rosie: No worries! He’s a real fluffy cutie. Can I pet him? 
+
+Please say no. 
+
+Joon: Sure!
+
+I pet the dog through clenched teeth. 
+
+Patrick: As Joon and Pancake have so helpfully demonstrated… Floor Three is also the home of our doggy daycare! 
+
+Joon: C’mon, buster. Let’s get out of the way. 
+
+Rosie: Nice to meet you! 
+
+// Joon leaves. 
+
+Great, now my hand’s all covered in grimy dog dust. I smile through my suffering. 
+
+Rosie: A dog-friendly office? Is this heaven?? 
+
+This is an absolutely crucial lie. I can NOT, under any circumstances, reveal that I hate dogs so fucking much. If I do, I’ll seem like a weird, frigid jerk. And this is a dog-friendly office, which means that dog people have a quorum here. There’s at least a 50% chance that Patrick is a dog-lover – he’s already indicated in that direction – and I can not disagree with Patrick about a superficial issue today. OBVIOUSLY! He would feel awkward for a second, which is the exact opposite of what I’m going for. It wouldn’t be giving CULTURE FIT!!! So fuck it all, today I love dogs!! (Even though they’re FILTHY and DISGUSTING and I CAN SMELL THEM AND THEY SMELL BAD!) I LOVE THEM ACTUALLY! 
+
+Patrick: I know, riiiiiight? Oh yeah, it’s definitely heaven. I adore the little doggos. Do you have a dog, Rosie? Oh, by the way, did you have a copy of your resume handy? 
+
+Rosie: No dog, but – 
+
+This is a test. A lesser girlboss would have to say, “Ummmmm, no, sowwy, I didn’t pwint one out, I don’t have a pwinter, can’t you pwetty pwease use the one I emailed you?” 
+
+Rosie: Right here. 
+
+Patrick: Beautiful. Alright, it’s just about time for Jaxon and Judith – let’s get you up to Product where you belong.
+-> interview_Jaxon_Judith
+
+=== interview_Jaxon_Judith === 
+
+Another quick elevator ride, and we’re on the fourth floor – the renowned home base of Cognos Product. Patrick begins with the bells and whistles. There’s a gaming room, complete with a rainbow of consoles and controllers, and a nearby “bot cave” of 3D printers and other mysterious machines that go beep boop… 
+
+But I’m MOST enticed by the Nap Room. We peek our heads in, and I see a very dark room, with lavender incense, white noise playing from the speakers, and a collection of sleep pods. Mmmm, mama wants to take a 4pm shnooze in here SOOOOO bad. 
+
+It’ll be a while before I want to risk napping on the job. Even if they say it’s okay, my first priority will be cultivating a reputation as competent and hard-working and popular. But just the fact that these sleepy capsules are waiting for me… It makes up for the fact that I’d have to tolerate the mangy hounds they allow to be here for some reason. 
+
+Patrick: And without further ado… the bullpen! 
+
+The desks up here are arranged in neat rows, but they’re WAY nicer than the floors below. They’re the kind that convert to standing desks with little motors. People are sitting and/or standing at desks, and there’s a low hum of conversation and activity. There are massive, spinning holographic terminals all over the room that seem to be showing real-time user activity. The entire perimeter of the bullpen is lined with glass-walled conference rooms.
+
+Patrick: Amir’s schedule is always slammed on Fridays because he uses most of the day for Office Hours. But typically, he’s here at the leadership table. 
+
+Suddenly, a green light flashes, and an odd thrumming sound plays over the speakers. The employees don’t seem to be surprised. They all seem to return to their desks and settle down, like kids during adult swim. 
+
+Patrick: Oops! That’s the signal for quiet hour. Let’s head out. 
+
+I can’t wait to develop a deep Pavlovian response to these stimuli. <3 
+
+Patrick leads me to a clean, small-ish, glass-walled meeting room. There’s an overhead light. It feels like an interrogation room, but maybe that’s just me. 
+
+Patrick: Knock knock! 
+
+// Jaxon and Judith appear! Background change: a conference room. 
+
+Jaxon: Oh, shit. Do I have enough time to run and grab a laptop charger? 
+
+Judith: No, you don’t. Send her in!
+
+Patrick: I’ll leave you to it. 
+
+Rosie: Hi hi. I’m Rosie Woods! 
+
+As the words are leaving my mouth, I’m doing a Sherlock-Holmes-ass scan of these two people. Time to size them up like my life depends on it. Who’s the good cop? Who’s the bad cop? You gotta play to the crowd. 
+
+Judith: I’m Judith Revell. I’m the Team Lead for our Pioneer Compute OS team, within our Services division. I’m also the go-to for all of our Product Leads. 
+
+These people say the words “Team” and “Lead” so often it makes my head spin. Judith’s in her late 30’s, I’d say. Her outfit is professional, but very prim; she’s covered up, she’s tightlaced. No smile, no nonsense. A wedding ring. She’ll need to see I’m not too hot to be professional. 
+
+Jaxon: The name’s Jaxon Reid. I’m the Senior Engineer AND Team Lead for I&A, so don’t let Judith fool you. I’m the one here you need to impress. 
+
+Immediate asshole energy. Another wedding ring, so I won’t flirt unless he does. Early 40’s, stain on his shirt (chili for lunch?). His jeans fit him poorly. I look down and try not to retch when I see his weird leather mandals.
+
+Rosie: Ha, duly noted! It’s great to meet you both. 
+
+Judith: To clarify our roles, IF you’re hired… 
+
+She really put some stink on that “if,” huh? 
+
+Judith: Then we’d both be your immediate managers. 
+
+Rosie: I see! So, Jaxon, I’d be able to rely on your technical expertise, while Judith, you’re more concerned with growth and overall trajectory. Is that accurate? 
+
+Judith: Exactly. 
+
+Great. I have four asscheeks to kiss. And they belong to two butts that clearly hate each other!! It'll be hard to suck up to one of them without pissing the other one off. It’s like Mommy and Daddy’s divorce all over again. 
+
+Jaxon: So – you’re swinging for the fences a bit, huh? PL for Integration & Assimilation… This would be your first time on a Product team at all, right? Quite a big leap for you. 
+
+Rosie: Yes, that’s correct! Although I think the “leap” really comes down to scale. Cognos is a much larger company than anywhere I’ve previously worked, in terms of both headcount and reach. 
+
+Rosie: In my current position, since we have such a small team, I’m doing lots of Product work, although my title is more general. It all started a few years ago, when one of our clients requested a feature that our team thought would be a simple fix… 
+
+Blah blah, blah, blah blah blah. I feel the rehearsed anecdote pouring out of my mouth. It's a classic, by-the-book interview technique: answer a question by telling a story about how you can do the job you’re getting hired for. Judith is nodding. This boring shit is scoring points with her. 
+
+Rosie: Long story short, I’ve been running our Scrum meetings ever since!! I never thought that adding invoicing notifications would take me on such a wild ride… But that’s dev, right? 
+
+Judith: I see. Well, I’m glad that you at least know the basics of feature implementation. You know, I got my start in Product in a very similar way. Back when I was working at Spotify, there was a rebrand that required us to – 
+
+Jaxon: I hate to interrupt you, Judy, but we’ll have to save story time for later. I want to use this time to make sure Rosie knows exactly what she’s getting herself into, because… 
+
+Damn, he has ZERO problem interrupting Judith. And they’re equals, aren’t they? If anything Judith is doing the Team Lead job AND shepherding a little flock of Product Lead underlings. But I guess Jaxon used to be a programmer, and programmers are the gilded mega-class of the tech worker hierarchy… 
+
+I make knowing eye contact with Judith. I say with my eyes: “Men, right?” She nods wearily. 
+
+Jaxon: I’m still skeptical that any of your experience will translate to Cognos. The person who had this job before you… He got transferred from another internal team with basically zero technical skill, so I had to teach him everything from the ground up. At this point, I’m too overloaded to invest in somebody like that just to have them jump ship. Do you know what I mean? 
+
+Rosie: I completely understand. 
+
+Jaxon: But wait, do you actually know what I mean? You’re not going to burn out in eight months, are y– 
+
+Judith: I want to clarify that we do provide extensive employee skill development, in general. That’s something built into our structure, for roles on all levels. 
+
+Jaxon: Yeah. So let’s get specific. I’m going to figure out whether you can hit the ground running or not. 
+
+Rosie: By all means. That sounds efficient for both of us. 
+
+This guy is… a lot. But whatever, he’s not worse than my current boss.
+
+Jaxon: Our software teams operate exclusively on Jira. We’re extremely hard on metrics for our team OKRs, so many of our Product Leads rely heavily on plug-ins. 
+
+Judith: Have you used Jira in a professional environment before?  
+
+Rosie: Yes, extensively. 
+
+Lie. I’ve barely touched Trello. But I sorta know what it is, and that’s enough. 
+
+Rosie: About a year and a half ago, my whole company decided to make the switch from Trello to Jira. I volunteered to be our “Transition Czar,” – I know, I know, great title – and learn the quirks inside and out so I could be the go-to for my team. 
+
+Another lie. I’ll tell them all day. They just need to like me.
+
+Rosie: It took people a minute to catch on, but once we got going, it was clear that the feature set is so much more powerful. 
+
+That’s all that matters. Like me! Notice how I talk like you, look like you, act like you! Let your subconscious determine I’m a member of your in-group! See how I match your energy! 
+
+Jaxon: So, what Jira plug-ins are you most familiar with?
+
+…Oops. I got too specific. I don’t know any Jira plug-ins. I DO know some buzzwords, though.
+
+Rosie: Oh, we mostly used ones for Gantt tracking. 
+
+Jaxon: Oh yeah? Name three plug-ins that you’ve used. 
+
+I’ve gotta redirect quickly. 
+
+Rosie: We used them for Gantt, time tracking, and – honestly – exporting to Excel. Like I said, I'm at a small company… with commensurate resources.
+
+And while he's still reeling from my hyper-intellectual use of the word “commensurate,” I'll redirect.
+
+Rosie: Speaking of dev cycles, I’d love to ask… In general, do you work in two-week sprints? I know that’s the standard, but personally I feel the cycle can depend on the team and the project. 
+
+Judith: I agree with you, but yes – we are on two-week sprints. With several different Product teams working in tandem, it becomes crucial to synchronize across all teams and projects, especially around feature launches. 
+
+Jaxon: I’ve been trying to get Judith to let us do quarter-long sprints. 
+
+Judith: *sigh* Another remnant of the previous I&A Product Lead. 
+
+Jaxon: Less of a sprint, and more of a marathon. 
+
+Rosie: Hahaha! 
+
+It kills me, it burns me, it physically hurts me, to laugh at this. I’m quickly realizing this guy is indeed an asshole, which sucks because I need him to like me. I think I’ve got Judith in the bag, but Jaxon is still warming up to me. 
+
+Okay, think. Jaxon is a middle manager. That means he wants to talk about himself and be praised for being a genius. 
+
+Rosie: Jaxon, that is so bold. Wouldn’t a quarter-long sprint be, essentially, forgoing the sprint cycle altogether? 
+
+Jaxon: Exactly. My team is past the need for sprints. Judy’s team prioritizes differently – they do ranked choice voting – but on I&A, everything flows downward from me. Since our old Product Lead left, I’m doing all of our feature stage-gating myself, waterfall style, and… 
+
+Jaxon is ranting on and on. I note my success. I’ve scored some points with him now, too. He talks for a while, and I put all my energy into active listening. I’m nodding and politely giggling like the token girl on every podcast. Finally, Judith cuts him off. 
+
+Judith: I’ve got a few more questions left for Rosie. Can you tell us about a time when you had to course-correct on a feature quickly? Particularly when you had to integrate client feedback? 
+
+Rosie: Of course! Great question. There’s one specific instance that comes to mind. We were working with a client that was integrated with, believe it or not, Cognos AI for simple facial recognition, but they were having a data security issue that stemmed from their lack of two-factor… 
+
+The interview continues. I’ve established sufficient rapport so far, but I need to close this deal. 
+
+Judith: Mmm, I see. 
+
+Jaxon: I wouldn't approach it that way, but I can see your logic. 
+
+I talk, and then I listen really hard. My eyes are charm rays shooting from a galactic satellite. 
+
+Judith: Well, that was my final question – and perfect timing, as Patrick said we’d have you until 1:00pm. 
+
+Jaxon: Hold up, Judith. I’m not done yet. There’s one last thing I need to know from Rosie. But you’ve got your stand-up, right? 
+
+Judith: That’s right. I better get going. I’ll leave you to it. 
+
+Judith extends her hand for a handshake. 
+
+Judith: It was great to meet you, Rosie. 
+
+Rosie: Thanks for taking the time!! I appreciate it. 
+
+Rosie: And Judith – I’ve gotta say – the fact that you’re specifically designated to foster PL career growth is extremely meaningful to me. That differentiates Cognos from every other offer I’m considering, and I’d be grateful to learn from you. 
+
+And there it is. That warm glimmer in her eyes, that repressed smile – that face that says, “Wow. She’s really good.” I realize at this moment that Judith wants a protegé. I’m happy to indulge her. 
+
+Judith: You’d be a good fit, Rosie. 
+
+// Judith leaves.
+
+Jaxon: Finally, just the two of us. 
+
+Gross. His tone just changed. Note to self: Jaxon gets creepier when we’re alone. But now that Judith’s gone, I can flatter him more directly. 
+
+Rosie: Oh, before we proceed – I’ve got a laptop charger in my purse. You needed one, right? 
+
+He takes it. 
+
+Jaxon: Huh. You always carry that around? 
+
+Rosie: A laptop charger, a phone charger, lip gloss, blotting papers, another copy of my resume, wallet, keys… Should I continue? Was your final question about the contents of my purse? 
+
+Jaxon: Hmph. Nice try, kiddo. You’ve given me perfect answers this whole meeting. But now, I want you to shoot straight with me. 
+
+I prepare myself. He’s gonna throw a curveball, but I’m a sexy, sexy baseball man that knows my way around a bat. Ooooooh, actually, I would look super cute in a baseball uniform! With pink stripes! I can’t wait until I’ve worked here long enough to start wearing my more daring fits. I would totally wear a pink baseball uniform to work. 
+
+Jaxon: Rosie, tell me… 
+
+FOCUS, ROSIE, FOCUS! Daydreaming about outfits can wait! 
+
+Jaxon: What’re you really getting out of this? What’s the one thing that you want MOST from this job? 
+
+The true answer is obviously money. All the money, all the stocks, all the future money when I get more good jobs because I got THIS good job, until I no longer have to bother with jobs at all. But obviously, that’s not what they want to hear. What DO they want to hear? This is a test. What is Jaxon looking for? 
+
+One weird thing that came up throughout this conversation: the person who had this job before me. Something about jumping ship too soon. Something about getting along with Jaxon. Yes… 
+
+Yes. I see the angle. I look Jaxon dead in the eye. This batter’s about to hit herself a touchdown. 
+
+* [Swear a cursed blood oath to RISE AND GRIND.]
+* [Vow to sacrifice your first-born child on the altar of HUSTLE.] 
+
+- Rosie: Jaxon, I’ll be totally straightforward with you… even if this isn’t what you want to hear.
+
+Yet another lie. I’m going to tell him EXACTLY what he wants to hear, obvi. 
+
+Rosie: The one thing that I want most from this job… The reason why I’m here… 
+
+Rosie: I want to spend the next year of my life in relentless suffering. 
+
+Jaxon: Huh? Suffering? 
+
+Rosie: Earlier, you were right – this is a leap for me. If you give me this job, I’m going to need to spend at least the next year of my life grinding, working tirelessly, to deliver at the level that is expected at Cognos. This is the big leagues. 
+
+Rosie: Long-term, I’ll adjust, but I know it’s going to mean a level-up for me. I’ll need your help with the transition, for sure. But I have the fundamentals, I have the drive… and I’m going to fucking stick around. 
+
+Rosie: Oh my gosh, I’m so sorry, I just cursed in an interview! That’s so unprofessional, sorry! 
+
+Jaxon: Don’t… fucking worry about it. 
+
+Rosie: AAAAAAAHAHAHAHAHAHahahahaha!
+
+I laugh from my tits. Spine straight, shoulders back, and you can really put the titty bounce in the giggle. I see him glance down. Good. Enjoy them, you chili-stained pig. Just give me the job. 
+
+Jaxon: Hah!
+
+Rosie: But seriously, I’ve been aiming for Cognos my whole career. This is my dream job. If you hire me now, I’m going to work nights and weekends for you. I’m going to hustle and get you results. And if you DON’T hire me, then I’ll be kicking down Cognos’s door five years from now, after I’ve done a lap around the industry, grinding for a bunch of start-ups that don’t deserve it. So why waste your time? Bring me on now, so I can hustle for you. 
+
+Make the face, bitch. Give me this job! 
+
+Jaxon: … 
+
+Jaxon: Don’t tell them I asked you this. How old are you, Rosie? 
+
+Rosie: Twenty-seven. 
+
+Rosie: Three years of crazy hustle left, am I right? 
+
+And there it is. Jaxon’s face curves into a big satisfied grin. It’s the face. He goes for the handshake. 
+
+Jaxon: You’ll be hearing from us soon, kiddo. 
+
+// fade out
+
+
+
+
+
+-> END
+
+
+    
+/*    
+    
+    COPY/PASTE OF LABOR OF LOVE ARCHIVES 9/24
+
+
+
+
+
+=== interview 2 Queeblo ===
+
+Patrick and I eat lunch together at the bustling cafeteria on the third-floor. The salad bar is fresh and the lines are long. I try to maintain my composure as I eat the most delicious bowl of lobster bisque I’ve ever had in my life. After lunch, we head down to the lobby. 
+
+Patrick: Unfortunately I have to duck out, but your 3:00pm interviewer will meet you here. You’re speaking with Quintín Esteban Connelly from our Customer Success team. 
+
+Rosie: Got it! Thanks, Patrick. 
+
+Patrick: Text me if he doesn’t show up in fifteen minutes, okay? Good luck! 
+
+I sit down in the fancy leather chair. I preen, I pose. I put my purse on the chair next to me. I steal a glance at my pocket mirror and reapply my lip gloss. I wait. 
+
+Ten minutes go by. I don’t want to look like I’m just scrolling on my phone, so I get out my notes and begin to review them. Whoever this Quintín is, he’s probably near the bottom of this corporate pyramid. Ditto for the “Customer Success” department. That sounds like intern work. Quintín Esteban Connelly… 
+
+OH, WAIT! Fucking obviously! That one guy from the conference! QUEEBLO! 
+
+Suddenly, I see a flash of movement in the corner of my eye. Someone runs up to me, grabs my purse off the lobby couch, and books it for the door. 
+
+Rosie: HEY! 
+
+I give chase, even in heels. Weight on the balls of your feet, bitch! 
+
+As I push out the front doors, I hear hysterical laughter. Standing right outside, with my purse in hand, is – 
+
+Queeblo: Eyyyy, little lady. Remember me?? 
+
+Rosie: Queeblo??! 
+
+Queeblo: In the fleshy flesh. 
+
+No waaaaaay, best case scenario! I met Queeblo a few years ago at a work conference thingie. We did a line together before his panel on Customer Service automation, then we went to a company-sponsored rave and got french fries at 1am. This cheeky fuck. He’s an absolute gutter rat, but in an endearing way. 
+
+I grab my purse back, give him a hug, and then playfully hit him with my purse.
+
+Rosie: It’s so good to see a familiar face today. Even if it is your ugly mug. 
+
+Queeblo: Oh goodness. She’s negging!
+
+Queeblo: I was stoked to surprise you today, but why didn’t you hit me up when you applied?? 
+
+Rosie: I never got your number! Plus, I wanted to get hired on my own merits… 
+
+Rosie: And by that I mean I couldn’t find you online. I asked for your business card at the conference, and you gave me a dirty receipt with the word “Queeblo” written on it. 
+
+That’s not 100% true. I found his sad excuse of a social media presence. And I thought about reaching out, but I’m already concerned about seeming too young and inexperienced. I was worried Queeblo’s recommendation might do me more harm than good. 
+
+Rosie: I guess I should’ve been searching for Quintín Esteban Connelly. 
+
+Queeblo: Pshhhh, yeah yeah. The government gave me a dorkass name, whatever. But you better call me Queeb. If I catch you calling me Quintín…
+
+He holds out his hand like he’s going to do a karate chop. 
+
+Queeblo: I’ll knife ya. Right in the neck. And I’ll tell ‘em never to give you this job in a million billion years. 
+
+Rosie: You’re interviewing me, right? 
+
+Queeblo: Yeah… Well, uh, I requested you. 
+
+Queeblo: They make all the fancy shmancy Product hires talk to some low-level shiteater like myself. I saw your name and went out of my way to be your shiteater. 
+
+Rosie: Awww, that makes my day! Also, you've really gotta stop eating your own shit.
+
+Queeblo: Who said it's my own shit?
+
+Queeblo spits his gum into the gutter. 
+
+Queeblo: C’mon. We’re goin’ on a field trip. I wanna hit up the skatepark and get a cookie from the gas station. 
+
+Rosie: Mmkay! I have to be back in an hour for my next interview, though. 
+
+Queeblo: I’ll get you back by curfew, princess. 
+
+I secretly like when he calls me “princess.” 
+
+Rosie: I take it you’re still answering emails from the unwashed masses? 
+
+Queeblo: Yeah, all the ones that are too complicated for the chatbot to process. So, like, the most annoying people imaginable. It’s not the bottom of the barrel, but it’s like… one rung up from the bottom. Management treats the Mods worse than they treat CS, for sure. 
+
+Queeblo: But I have my fucking pride, man. I’m good at my job. Always have been. That’s why they can’t do shit to me. 
+
+We get to a nearby gas station, and go inside. Queeblo spends several minutes deciding between Snyder's Honey Mustard n’ Onion Pieces and Takis Fuego. 
+
+Queeblo: Damn, such a hard call… I’m going with the ‘ustard. 
+
+I get an iced tea, and… 
+
+A chocolate chip cookie
+The bag of Takis Queeblo passed up 
+BOTH a cookie and the Takis
+
+=== just the cookie 
+I get an iced tea and a chocolate chip cookie. I feel awkward during the 45 seconds it takes to pay for them. 
+
+=== bag of tokis 
+I get an iced tea, and then I slip a Takis bag into my purchase because I’m feeling generous. Not generous enough to put my change in the Make-A-Wish jar, though. Those kids aren't going to do shit for me.       
+
+=== both 
+I get an iced tea, a cookie, and I also surreptitiously slip a Takis bag into my purchase. Queeblo is too busy pretending to be Wolverine with in
+dividually-wrapped Slim Jims in between his knuckles to notice. 
+
+Queeblo: Fear my claws, puny citizens!!! FEAR MY TERRIBLE KNIFE FINGERS, AND MY FEARSOME WOLVERINE WRATHHHH – OH, shitttttt I knocked over the Twinkies!!
+
+=== rejoin point after purchase 
+We walk to the skatepark together. 
+
+Rosie: Do a kickflip. 
+
+Queeblo: Hell yeah. X GAMES!!!!!! 
+
+Queeblo tries and fails to do a kickflip. 
+
+Rosie: Wait, can you even do one?? 
+
+Queeblo: Shut up!!! I got this, I got this. 
+
+Queeblo fails again! 
+
+Rosie: Psh!!! What was that???
+
+// queeblo blush 
+Queeblo: I SWEAR I CAN DO A FRIGGIN’ KICKFLIP!!!! I did one, like, eighteen hours ago!!
+
+Rosie: AHAHAHAHAHA!  
+Queeblo: I don’t see what’s so flippin’ funny.
+
+Rosie: Wait wait. Give it one more shot. 
+
+Queeblo: Aight. For all the marbles. 
+
+He lands it!!
+
+Rosie: WOOOO!!!! 
+
+Queeblo: USA, BABY!! USA!!!! 
+
+Queeblo whips his shirt off and hits the half pipe or whatever the fuck. He’s pretty good, and unexpectedly graceful when he’s not throwing himself into trash cans. I have literally seen him cannonball into a dumpster before. 
+
+I pop my iced tea and take a sip. I did not expect to find myself sitting in the hot California sunshine with Queeblo today. And I did not expect this whole thing to feel so… easy? Jaxon and Judith were normies, but I killed it with them. I’m getting good vibes from Patrick, and Queeblo’s my friend!!
+
+(Well… “Friend” is a teensy bit inaccurate. Back at the conference, after we got french fries, Queeblo walked me back to my hotel, and… We made out for, like, fifteen minutes in the hotel hallway. Neither of us have ever acknowledged that it happened, but I remember it being good.)
+
+Going off vibes alone, my gut says Cognos is going to make me an offer. I need to recalibrate my position. I need to stop thinking of myself as underqualified. I need to negotiate from a place of strength, like a big strong man that’s got all the antibiotics stockpiled during a zombie apocalypse. 
+
+Queeblo: Aight, I’m pooped. 
+
+Queeblo sits down next to me, close enough that I can smell his sweat just a little. I like it. I angle my body towards him. He pulls off the medical bandage around his neck. 
+
+// Queeblo has many tattoos – full sleeves on both arms, some on his chest and back. But his oldest tattoo is one on his neck, a stick-and-poke tattoo of the word “FUCK”
+
+Rosie: Ah, your stick-and-poke. 
+
+Queeblo: Yuh, this old chestnut. Bethianna makes me cover it up when I’m at the office now. It’s a damn shame. 
+
+He pops open his bag of chips.
+
+Rosie:  Too good for the free food at Cognos? 
+
+Queeblo: Yeah, fuck that, man. It’s just a ploy to get people to stay longer. Give over every second of their lives. I like the fresh air. 
+
+Rosie: Ah yes, the sweet smell of pollution fog that one can only get outside.
+
+Queeblo: *snort laugh*
+
+Queeblo: Yeah, can’t get this bad boy in the caf. That place is sus. I think Aagard puts microchips in the salad dressing and that’s why everyone’s so toightass lately. 
+
+Rosie: Aagard? 
+
+Queeblo: CEO. He hired me way back in the day, when it was him and Abney running the company. Then Abney bailed and Aagard went fucking crazy and is doing a full, like, “I am a wizard in a tower” thing now. To be real, a computer genius. But psyyyyyyychopath. He used to be cool. 
+
+Rosie: Riiiiight. Damn, you’ve worked for Cognos forever, huh?  
+
+// shark grin from Queeblo
+Queeblo: You’re looking at the third ever Cognos employee. I used to be the receptionist. Kneel down at my mighty power!! 
+
+Ha, dream on. 
+I worship you, almighty Former Receptionist. 
+
+=== ha, dream on 
+
+Queeblo: Psh. Maybe I am gettin’ a little bit big for my britches. 
+
+=== i worship you 
+
+Queeblo: Mmmhm. I’m generous to my acolytes. I’ll grant all your lil wishes. 
+
+=== rejoin point
+Queeblo: No, but for real. I have some power at Cognos. Not… like… for real for real, but for real for sure. 
+
+Rosie: Absolutely. If you’ve been here that long, you have influence. You know the history, you get the mission. I believe “institutional knowledge” is the book-learnin’ term for it. 
+
+Queeblo: Pre-cise-ly, dude. I don’t have that much sway as a shiteater, but obviously I want to use my lil scrap of power for GOOD! Like, just because somethin’ doesn’t affect me doesn’t mean I should keep my mouth shut. I’m tryna be better about that.
+
+Rosie: God loves a trier.
+
+Queeblo: Nah, Rosie, I’m being serious!!
+
+// serious expression 
+Queeblo: I heard this quote recently, “Power renders itself invisible to the guy who has it.” Or something.
+
+Rosie: Okay? 
+
+Queeblo: What I’m saying is, me and my invisible power got you.
+
+Rosie: But that would make your power visible to you..? 
+
+Queeblo: Fuck the quote. I'm saying you’re in with me. You’re good, you’re in.
+
+Queeblo: I mean, I’ve been talkin’ you up since I heard you applied, but we both know you’re gonna get yourself hired. 
+
+Rosie: Thanks, Queeblo. 
+
+Queeblo: And if you take the gig, I’ve got your back. I’ll make sure you get to sit with all the cool people at lunch and I won’t let anybody fuck with ya. 
+
+Rosie: Awww! That’s really sweet. 
+
+It really is. Queeblo’s so nice to me sometimes. It makes me want to lick the tattoo on his neck. I’d trace along the letters of that old shitty stick n’ poke – first F, then U, then C, then K – and watch him squirm… 
+
+Queeblo: And… um, in the interest of being honest about POWER and everything. There’s a referral program, and I, a sweetie, officially vouched for you with the HR assholes, so if you get hired… I get an $8,000 bonus. 
+
+Rosie: WHAT!! Are you serious? That’s an insane bonus for just a referral. 
+
+Queeblo: But I swear I’ll take you out to dinner with the money!!! We can go somewhere nice, like Outback Steakhouse. 
+
+Rosie: Psh!! You better. Also, I would never be caught dead in an Outback. 
+
+Rosie: But thanks for the recommendation, seriously. I thought I was underqualified, to be honest. 
+
+Queeblo: For real??! You’re crazy, my little clam diver. 
+
+Queeblo: Anyhoo, which schmucks are they makin’ you talk to today? I’ll give you the inside scoop. 
+
+Rosie: Oooooh, yes please. I talked to Jaxon and Judith from Product earlier… 
+
+Queeblo: Meh. Cops. Boring middle management. Jaxon is okay, Judith is bad. 
+
+Rosie: Really?? Good to know, I got way worse vibes from Jaxon. And my final interview is with Amir Rasatogi. 
+
+Queeblo: Barf to Amir. The ultimate cop. Undercover cop, actually. He’ll try to seem cool, he’ll be like, “We’re all in this together, I’m chill, I’m reasonable, one HUN-dred percent,” but it’s fully an act. He’d pay you $1 per day and spit in your smoothie if it made Aagard happy. 
+
+Rosie: Got it.
+
+Queeblo: Damn, they aren’t having you talk to anyone cool tho!!!! 
+
+Rosie: Oh yeah? Who’re all the cool people? 
+
+Queeblo: Me, obviously. And, uh… Chika is cool. Mal is cool as shit. And you fuckin’ gotta meet Pitt. 
+
+I commit those names to memory: Chika, Mal, Pitt. 
+
+Queeblo: And Grandpa, obviously. I didn’t bring him in today. 
+
+Grandpa…????
+
+Queeblo finishes his last chip, and upturns the bag so he can eat (or drink?) the crumbs. 
+
+Queeblo: Fuck. Kinda wish I got the Takis. 
+
+=== if you bought the Takis 
+
+Rosie: Oh yeah??? I’ve got a surprise for you. 
+
+I hand over the Takis Fuego that I secretly bought him earlier. 
+
+Queeblo: GREAT CAESAR’S GHOST!!!!! 
+
+Queeblo: Do my eyes deceive me?!?!?! That is a BINGO. 
+
+Queeblo: Dude… I’m gonna cry. 
+
+Queeblo pops the chips. He puts his nose in the bag and takes a huge sniff. 
+
+Queeblo: Yusssssssssssssssss.
+
+Rosie: Dear god, do you have to huff them like that? 
+
+Queeblo: These are gift chips. Of course I’m going to treasure their magnificent stank. 
+
+Queeblo takes a bite, making eye contact with me the entire time. He is crunching pretty loud and getting the red flavor dust all over his fingies. I watch his Adam's apple, bobbing up and down his throat. It makes me want to touch him. 
+
+Queeblo: Wait… Are you trying to bribe me right now? 
+
+Rosie: Yeah, is it working?? 
+
+Queeblo: You’re a bribery genius. I’m gonna double recommend you now.
+
+=== if you didn’t get the Takis / rejoin point 
+Queeblo wipes his greasy fingers off on his pants, and then looks at me hard. He cocks an eyebrow. 
+
+Queeblo: Are you sure you wanna work here, Rosie? 
+
+Rosie: At this skatepark? No, I definitely don’t want to work here. What gave you that idea? 
+
+Queeblo: You little motherfrigger. 
+
+He flicks me on the forehead. 
+
+Queeblo: Don’t get me wrong, I want you to get this job so I can give you a noogie every day and throw your lunch off the roof. 
+
+Queeblo: But Cognos is… bad. Like, all vampiric corporations that SUCK out our PUBLIC GOOD through the TEAT with their DEMON FANGS are BAD. But I think we’re really bad. 
+
+Rosie: Do you mean, like… Cognos does bad things in the world? Or is it a bad work environment? 
+
+Queeblo: Oh, we’re for sure burning down what’s left of society with our shady computer technologies. We’re making a shit ton of money, so that’s a dead giveaway. 
+
+Queeblo: But even for us elite few inside the beast… It’s a bad environment. When we were hanging out at that conference, did I tell you how Management fucking fired an ENTIRE dev team, like twelve people, the night before a launching the project they’d been working on for three years? 
+
+Queeblo: It was such bullshit. And that kinda thing just HAPPENS all the time. They burn through people the way I burn through napkins at a taquería. 
+
+Queeblo: And don’t tell ANYONE this. But there’s another employee who had a really serious harassment thing with another employee. Like, a young professional woman who was good at her job, and some mediocre guy who got super fucking weird, like stalking and threats and whatever, and the company didn’t do shit. Which is fucking typical. It’s TYPICAL! 
+
+Queeblo: Don’t let me ever catch you talking to HR. They’re not there to help you. You know that, right? 
+
+Rosie: Okay, okay! I get it, Karl Marx. I won’t fuck any cops either. 
+
+Queeblo: You better not. 
+
+Rosie: But I think… I think I still want to work here, Queeb. 
+
+If I start making decisions around my own safety now, I’ll sacrifice my career trajectory. This kind of thing is literally everywhere. I’ll just have to risk it. Like always.
+
+Rosie: You’re watching my back, right? I’ll keep my head down, I’ll be okay. 
+
+Queeblo: Yeah, I got you. Butcha know what, Rosacea? 
+
+Queeblo: It’s not going to be this bad forever. It’s gonna get better around here. 
+
+Rosie: How can you be so sure? 
+
+He winks. 
+
+Rosie: Oh shit, I’m meeting with Patrick in ten minutes! You said you were gonna get me back!! 
+
+=== if you bought the cookie
+
+Queeblo: Nooooooo, don’t make me provide the value of my labor to a corporationnnn    
+
+Rosie: Awww, poor Queeblo. Born to skate, forced to toil, huh? 
+
+Queeblo: Mmhm. 
+
+He pouts like a little puppy. 
+
+Rosie: I thought we’d have this problem. 
+
+I pull the cookie out of my bag. 
+
+Rosie: C’mere boy! You wanna treat, right?? 
+
+Queeblo: Is that a cookie??? Chocolate chip???!
+
+Rosie: C’mere!! Come get it! 
+
+Queeblo: Gimme the cookie!!! 
+
+We walk back to Cognos together. I officially have a soft spot for Queeblo. 
+
+// fade to black 
+
+=== if you didn’t buy the cookie
+
+Queeblo: Shit!! Leggo, princess! 
+
+I officially have a soft spot for Queeblo. We walk back to Cognos together. 
+
+// fade to black 
+
+=== interview 3 Amir === 
+
+// Patrick and Rose in the elevator. 
+
+Patrick: …so I said to him, “C’mon, it’s not MY carwash, pal!”
+
+Rosie: AHAHAHAHAHAHA!! Your neighbor sounds like a piece of work! 
+
+Patrick: I know, right?!? Psh! 
+
+Patrick: Anyway, you’ve done amazing so far – and there’s just one interview left, Rosie! Amir’s waiting for you on the Fifth Floor. I snagged a slot on his Office Hours schedule, right at the end of the day. 
+
+He hits the button for Five. 
+
+Rosie: Which floor do you work on, Patrick? If I get hired, I’ve gotta come visit you. 
+
+Patrick: I’m on Six, actually! HR is up there with Legal, the Executive team, and the Board Room. To be honest… 
+
+He glances side to side, to make sure no one is listening. This is ridiculous because we are currently alone in an elevator. 
+
+Patrick: Six is, by far, the worst floor. No special amenities or anything. All the space is taken up by the Board Room, and there’s a Golf Simulator thingie, but no one uses it. I’m basically never there. I’ll come visit you on Four, though! 
+
+The elevator doors ding. 
+
+Patrick: Ah, here we are! Allow me to present… the Fifth Floor! 
+
+The doors open, and instantly, the air feels different – crispy and fresh – and we step out onto a floor that is just one, huge balcony. There are occasional columns supporting the upper levels, but the entire floor is open and peaceful and gorgeous. There’s tons of greenery, trees and shrubs and flower beds in perfect harmony. I see a few people lounging around, working on laptops. It’s like Corporate Eden up here. 
+
+Patrick: Not bad, right? C’mon, Amir’s spot is back this way. 
+
+Leaning against the railing, I see Amir Rasatogi. His typical press-friendly grin has been replaced by a serious, concentrated look – he’s listening and nodding. He’s talking to two other people, a man and a woman. The man is in a loud pinstripe suit. The woman is in an even louder shawl and pair of artsy frames. 
+
+Patrick: We had the 4:30 slot, but, uh… Looks like he’s finishing up with Richard and Bethianna. 
+
+These two both look about mid-fifties to me, definitely the oldest people I’ve seen today. Something about the way they’re speaking to Amir makes it look like he’s getting a lecture from his controlling and disappointed parents. 
+
+Patrick: Um, let’s just wait a hot minute! I’m sure they’ll be done soon. 
+
+Patrick: So, uh, do you like music?
+
+Patrick and I chit-chat for a few minutes – huge coincidence, our music tastes are nearly identical!! How did that happen?? I wonder ;) – until finally, Amir finishes up with those two olds. 
+
+Patrick: Go ahead, Rosie! I’ll come fetch you when you’re done. 
+
+I stride over, making the exact right amount of friendly eye contact. 
+
+Rosie: Good afternoon!
+
+Amir: Hey there! You’re my 4:30, right? 
+
+No suit – just chinos and a sweater. What a huge disappointment. It’s such a shame to see someone who makes that kind of money dressing like a common spud. Silicon Valley can be so tragic in that way. 
+
+Amir: I’m Amir. And you’re Rosie Woods, right? You’re here for the PL role on I&A. 
+
+Rosie: That’s exactly right. Great to meet you, Amir! 
+
+Biiiiiiiiiiiiig smile. My cheeks are starting to hurt from all the smiling. The only smile break I’ve had all day was when I was pissing alone in the bathroom stall. Whatever, I’m nowhere near my limit. I’m a woman in the workplace, after all. I think I could fake smile for three days straight if I had to. 
+
+Amir: Nice to meet you too! Right off the bat, I’ve gotta say – I’ve had a few, uh, demanding meetings today, but this one I’m actually psyched about. 
+
+Rosie: No way! I’ve been looking forward to it myself. 
+
+Amir: Way. Ever since I saw your resumé – Syntech AND you interned at BioHub? – I knew we’d have a lot to talk about. But I know it must not feel that way, because I’m… 
+
+He checks his watch. I don’t need to check mine. I know it’s 4:38. 
+
+Amir: Eight minutes late. Sorry about that, seriously! Fridays are always back-to-back-to-back for me, so if I start running behind, I’m behind all day. 
+
+Rosie: No worries, truly! 
+
+Amir: And one last thing – I’ve got a hard stop at 5:00. Sorry again, very unprofessional of me! My daughter’s got a softball game tonight. 
+
+PERFECT. He said the word “daughter.” That’s my in. I’m going to connect with this man on a personal level if it’s the last thing I do. 
+
+Rosie: Aww, that’s so sweet! I completely understand. Twenty minutes should be plenty, I think. I’m just grateful that we got a chance to connect. 
+
+Amir: I really appreciate that! And please don’t take my tardiness as any indication of my enthusiasm. 
+
+Rosie: Of course. As someone with a healthy respect for work/life balance, we’ll definitely get you out of here on time for Dad duties. How old is your daughter? 
+
+Amir: She’s 10! My oldest, Nya. She’s an incredibly talented shortstop. I’m super proud of her. And I have another daughter, Harper, who just turned six. 
+
+Rosie: Ooooh, Harper and Nya! Those are tasteful names. I love it. 
+
+Amir: Thanks! My wife and I had a full spreadsheet of potential names for each kid. We really got into it. It was a brutal elimination process. 
+
+Rosie: Spoken like a true perfectionist. 
+
+Amir: Ha, guilty as charged! 
+
+Rosie: But I get it. Some things are too important to half-ass, you know? And the results speak for themselves. You chose well. 
+
+Rosie: Can I ask you something about children? I’ve always been curious about this. At what age do they start to have, like… a personality? 
+
+I’ve asked this question literally dozens of times. It’s my go-to for people who have kids. It’s an open-ended prompt, directing them towards the nostalgia-soaked baby years, when their kid’s brain was definitely just a potato, but they started to project and invent whatever traits they wanted to find. Parents loooooooove to run their mouths about their crotch goblins. 
+
+Amir: Wow, what a thoughtful question! Ahhh, that takes me back. For Nya, I felt like it took us quite a while to get a real sense – maybe a year before I could see how observant she was – but Harper came into the world bold and unapologetic, although by her first birthday, she was… 
+
+He goes on and on, totally loving it. Listen, listen, be a pretty listenerrrrrrrrrrrrrrrrr :)
+
+Rosie: Amir, that was fascinating. I’m going to be thinking about early child development for the rest of the week. 
+
+Amir: Ha! Well, I’m no expert. Just a run-of-the-mill Dad, but I try my best. 
+
+Rosie: Speaking of trying one’s best… 
+
+Rosie: I’d love to try my best as the new Product Lead for I&A. I’m just so psyched at the possibility. What do you want to know? How can we figure out if I’m a good fit? 
+
+Amir: I appreciate the go-getter attitude, sincerely. But if you’ve gotten this far, that means we’ve already asked you every question in the book. I rely on my team to do the basic vetting. 
+
+Rosie: Ah, a leader who trusts their employees. How refreshing. 
+
+Amir: Ha, I try to be!! Back in the day, I saw my fair share of micromanagers. A fate worse than death!
+
+Rosie: Amen! 
+
+I’m quickly coming to understand why he’s the face of the company. Am I face-to-face with the world’s most powerful personality hire? 
+
+Amir: Here’s what I want to do instead. You ask me whatever questions you’ve got. About Cognos, about the job, whatever you’re most curious about. I find that’s the quickest way to get to know a candidate. 
+
+Rosie: Really? 
+
+Amir: Really. In general, I try to have as many one-on-one conversations with our staff as possible. That’s the whole reason I do Office Hours! I’m interested in what’s on your mind, and I want to act as a resource for you. I’m at your disposal. 
+
+Rosie: Ha! I won’t go easy on you then. 
+
+Ask about his position. 
+
+=== Ask about his position. 
+First thing’s first – you’re both President AND Chief Product Officer, yes? Both roles? 
+
+Amir: Yep, that's right. I’ve been the CPO at Cognos for the last four years – but about a year ago, I stepped up as the primary leadership for day-to-day at the company. 
+
+Rosie: Cool. Does that mean you’re in charge of the place, then? 
+
+Amir: More or less. 
+
+For the first time today, someone hits ME with a big charmer smile. It’s a waste though, because I’m fully immune. He’s handsome for sure, but he reads more “prince” than “king” to me, and that’s the issue. Too nice. 
+
+Ask about his position. 
+Ask about the Product team. 
+Ask about the future of the company. 
+
+=== Ask about the Product team. 
+
+Rosie: This role would be my first official foray into Product, at least at a company with enough scale for it to mean something. What am I getting myself into? In general, how would you describe your approach to guiding Product design at Cognos?
+
+Amir: Wow, what a great question! If we zoom out and take a 30,000 foot view, I like to think of our Product team as a big engine. As I’m calibrating that engine, I’m not looking for every single skill from every single person. I’m looking for the necessary expertise across the board, and I’m looking for compatibility in the conglomerate, so we can actually collaborate effectively and equitably. That way, at the end of the day, we solve the problems that we need to solve. It’s a different approach than virtually any other product team in the industry.
+
+Ooh, what an innovative disruptor. You’re not like other girls, Amir. 
+
+Rosie: Oooooh, I love that. You’re saying that your priority is to move as a unit, rather than being egotistical about your approach. 
+
+Amir: One HUN-dred percent. It’s a common mistake amongst Product Execs: when you hone in so hard on implementing your individual vision for the Product that you don’t make use of your team. We’ve gotta trust each other, right? 
+
+Amir: It’s refreshing to discuss Product theory. I do a lot of public-facing as President, so I’m mostly getting grilled about moderation and privacy infrastructure nowadays. 
+
+Awww, is poor baby President getting bullied by meanie reporters?? 
+
+Rosie: Ugh, I’m sure you are. There’s so much wide-spread misunderstanding about machine learning in the public sphere. All the coverage I read is very short-sighted. Especially when the tech is so inevitable. 
+
+Amir: Seriously! Thank you for saying that. 
+
+Ask about his position. 
+Ask about the Product team. 
+Ask about the future of the company. 
+
+=== Ask about the future of the company. 
+
+Rosie: Back when I was interning at Syntech, one of the first things that really STRUCK me about machine learning – and the reason I’ve been working towards this industry my whole career – is the near limitless potential of AI, purely as a tool. It’s a solution to any problem we decide to apply it to, you know? 
+
+It’s so not, but Cognos is mission-driven, and that “mission” is worshiping AI. I’d suck AI’s toes if it had toes to suck. 
+
+Amir: I completely agree. Fundamentally, machine learning is a means. We decide the ends. 
+
+Rosie: Yes! But… that tool requires such significant initial input. The data, the annotation, to get the snowball rolling down the hill. I’m sure you’ve got some models currently in the first phase of data collection. Any thoughts about what’s coming in the next three years? The next ten years? Where are you steering this Product, through a technical lens? 
+
+Amir: Wow. Great question. Wow! 
+
+Yeah, I put my whole brain pussy into that. 
+
+Amir: I’ve got to go back to my roots on this one. My goal in life has always been to become the best leader I can be. And waaaaaay back when, I started out at Berkeley as an economics major… but I dropped out after three semesters. Best decision of my life, honestly.  
+
+Amir: After dropping out, I went to intern at Twitter during the summer they IPO’d. Then I worked at a handful of startups, and eventually landed a gig working directly under Patrick Debois, who’s the father of DevOps, as in, the father of the entire methodology. 
+
+Damn. That was the most rehearsed six sentences I’ve ever heard someone utter. 
+
+Amir: Now, I think it’s fair to say that our past informs our future – that my experiences up to this point in our industry inform my perspective, and from there it’s easy enough to infer the future. When you know where you’ve been, you know where you’re going. 
+
+Amir: So all in all, I hope that answers your question. 
+
+Rosie: Absolutely! 
+
+It doesn’t answer my question at all. I asked him where he’s taking Cognos. He gave me an abbreviated version of his resumé.
+
+Rosie: That’s definitely a vision I can get behind. 
+
+We talk “vision” for a few minutes. Things are going fine – we’re getting along – but I need to make a bigger impression. I need him to remember me. 
+
+Ask about his position. 
+Ask about the Product team. 
+Ask about the future of the company. 
+Ask about the grim realities of being a woman. 
+
+=== Ask about the grim realities of being a woman. 
+
+Rosie: Amir… Since you’ve been so straightforward with me, I trust that it’ll be productive to voice my biggest hesitation about this job. 
+
+Amir: I’m all ears. 
+
+Rosie: So… I’m a woman in tech. Obviously. And I’m sure I don’t have to tell you about the kind of sexism and inequality that is endemic across this entire industry. For me, that means that every potential opportunity in my career has to be evaluated in terms of my professional development, but also in terms of my safety. 
+
+Amir stills. He’s been tense since I said the word “woman.” Good. That’s exactly where I want him.
+
+Rosie: Now, obviously, individual incidents of conflict are going to happen within any organization. But I’m more interested in the structural approach that organizations take to solve those kinds of inevitable conflicts. 
+
+I stare him dead in the eyes. He is SQUIRMING! Ha!! Don’t worry, sweetie, this is fully a trap! 
+
+Rosie: Amir, how do you keep women and minorities safe while working at Cognos? How do you ensure their voices are heard here? 
+
+Amir: Um… 
+
+Oh, honey. I know you’re nervous now, but no matter what you say to me, I’m going to tell you that you’re the smartest genius ever and that you’ve solved sexism. That’s WHY I’m asking this. His opinion doesn’t mean shit to me. But he’ll feel smart if I ask him a tough question, and praise him for his answer. 
+
+Amir: First off, thank you for being brave enough to ask that, Rosie. I think that question deserves some radical candor in response. 
+
+Amir: And I want to say – I don’t know and I will never know what it is like to be a woman in tech. But as an Indian man, I can one HUN-dred percent agree that there are huge problems in the industry as a whole. 
+
+Amir: This is a controversial approach, but truthfully, I don’t think about our employees in terms of subgroups. I don’t think of the “women,” the “minorities,” the “international hires,” the “parents,” whatever. I have a universal standard of treatment that all Cognos employees should be experiencing. Every single employee should feel that their voice will be heard. They should feel safe at work and trust that they are being judged by the quality of their work, first and foremost. So I don’t stress about catering to different subgroups. We just make sure that every employee’s experience is consistent with that standard. 
+
+Fuuuuuuuuck that. He gave me an “I don’t see color” answer. Just say you support women, boo. It’s not that hard. But whatevs. 
+
+I nod slowly. I look out, off the balcony, towards the horizon, to build up tension. Then I look back at him. I’m here to get hired. I’ll say anything that needs to be said to make that happen. 
+
+Rosie: Equity. 
+
+I used one of your favorite words, Amir!
+
+Amir: Excuse me? 
+
+Rosie: That’s what I see, at the core of your approach. Equity, as in – it’s not that everyone gets the same treatment. It’s that all of your employees get the treatment they need to meet that bar you’ve set. You’re trying to distribute resources and support so that every single person, regardless of any of their individual traits, is meeting the bar of: being able to speak up, and rely on the company when they’re put in a difficult situation. 
+
+Amir: EXACTLY! That’s what I was trying to say! I’m so happy that I got that across, Rosie. 
+
+Rosie: That’s really cool, Amir. Seriously. 
+
+He beams like a ray of pure sunlight. Victory is mine. 
+
+// Patrick appears
+
+Patrick: There you two are! 
+
+Rosie: Hi, Patrick! 
+
+Patrick: I’m just here to fetch our illustrious candidate. 
+
+Amir: Patrick… Full steam ahead from me. Let’s move forward today. 
+
+Patrick: Got it. 
+
+Rosie: Amir, I know you’ve gotta go, but thank you so much for speaking with me. You’ve given me a lot to think about. And have fun at the game! I hope Nya stops all the shorts!
+
+Amir: HA! Stop all the shorts, that’s HILARIOUS!! BAHAHA! I’m gonna use that! 
+
+Amir: Ahhhh. Thanks to you too! And Rosie… I can tell that you’re super passionate about complex systems. You remind me of Harper in that way. But wait wait, have you been down the slides yet?? 
+
+Rosie: The… slides? 
+
+Amir: Yeah! 
+
+Patrick: You two have fun. Rosie, I’ll meet you in the lobby. 
+
+Rosie: O-okay! 
+
+Amir beckons me around the corner of the balcony, and I see a whole row of plastic slides. Like, straight-up playground-ass, Chuck E. Cheese-ass kiddie slides, in primary colors. This man can NOT be serious right now. Did fatherhood regress his brain? 
+
+Amir: AWESOME, right? If you’re ever sick of the elevator, we’ve provided a far superior option to get around the office. There are slides to every floor! 
+
+Rosie: SO awesome! I’ve gotta try them! Which ones go to the lobby? 
+
+Amir: These two right here. Wanna go on three? 
+
+Rosie: Hell yeah! Let’s do it! 
+
+Amir shoulders his messenger bag, and looks at me with a surprisingly genuine smile. I clutch my purse, and prepare to go on a kiddie slide while wearing a business-appropriate skirt. Here we are. I can’t say no. I must be game. Yet another indignity to swallow with a smile on my face. How low will I stoop? 
+
+Amir: Alright, get ready… One… two… three! SLIDE! 
+
+We both jump in. 
+
+Instantly, the open air of the balcony is replaced by the plastic stench of the kiddle slide. My slide is a nauseating orange, and I’m surrounded by all sides, as I circle around and around, ever downward. My skirt rides up, of course. It takes a while. I hate this so much. At least I’m alone. 
+
+Amir: WEEEEEEEEEEEE!!! 
+
+Oh, shit – as I’m circling, I can occasionally hear Amir’s yelps of pure joy. God, this is fucking humiliating. But if I can hear Amir, he might be able to hear me… 
+
+Rosie: AHAHAHAHA! Wooooooo!!! 
+
+I make “This is so fun!!!!!!!” noises, just in case he can hear me, until finally I emerge from my orange, claustrophobic nightmare, back into the bright lights and high ceilings of the Cognos lobby.
+
+// fade to black 
+
+=== the offer 
+
+After my demeaning slide down the building, Patrick takes me to his little desk on the sixth floor. 
+
+Patrick: Here’s your coffee. I guessed – vanilla latte? This one is oatmilk, if you’d prefer. 
+
+Vanilla 
+Oatmilk
+
+Rosie: My favorite. Thank you!
+
+Patrick: I’ve got great news for you, Rosie. 
+
+Rosie: Oh yeah? 
+
+Patrick: I get to make you an offer. 
+
+Rosie: Yes! 
+
+Patrick: Yes!!
+
+We high-five. 
+
+Patrick: We did it. Everybody loved you. 
+
+I know. They really did. Also, “we” did it? Come the fuck on. 
+
+Rosie: Thank you so much, Patrick. Honestly. You’re my fairy jobmother. 
+
+Patrick: Bippity boo, girl. Let me walk you through the offer. 
+
+Patrick takes me through all the nuts and bolts. It's gratuitously generous, as expected. Unlimited PTO, Matching 401(k). Full healthcare, with 24/7 access to a Nurse Practitioner via their app. A bouquet of stipends: wellness, education, self-care. A bike stipend (but I would obviously never bike anywhere, so that'll be wasted on me). Not a word about company Equity or stock options... Am I still too low-level? Those're probably reserved for at least middle management… But once I’ve got my foot in the door, I can get there. 
+
+Patrick: And the starting salary is $98,000. 
+
+!!! Fuuuuuck that. Two thousand away from six figures? What do they take me for, some kind of business baby who’s going to shit my lil diapy at the first offer?
+
+Rosie: Ooooh, that’s so generous. Especially when you consider it as a package.
+
+Patrick: Especially when you consider it as a package! Exactly! And if you’re ready, we can sign right now. I can give you a moment to read the fine print if you want. 
+
+Rosie: Oh, yes please. I’ll give it a read. 
+
+Patrick: Take your time! 
+
+Patrick whips open his laptop. I sip my latte, and skim the whole thing. It’s a pretty standard contract. Non-Disclosure, Non-Compete, Non-Defy. I need this time to figure out my next move on salary. 
+
+I’m not walking out of here with five figures, obviously. But I need to get him to $112,000. That’s going to be harder. Can I get him up by 14% from the starting offer? 
+
+Wow. Did you see how quickly I calculated that percentage? Even I impress myself sometimes. 
+
+It’s gotta be $112,000 because my dad made $111,000 at his veterinary practice. I know because I found his tax returns. And fuck it, I need to make more money than my Dad. This is tech. This is COMPUTERS!! We’re not operating on case-by-case dogs and cats like 1800’s plague doctors. Cough up the money now, you cheap rats! I WON’T WAIT ONE MOMENT LONGER FOR MY GODDAMNED AMERICAN DREAM!! 
+
+I calmly finish my latte and turn to Patrick. 
+
+Rosie: Everything looks great. I mean, obviously, I’m honored. Thank you from the bottom of my heart. But… I do think I need to sit on it for a day or two. 
+
+Patrick: Oh no, really? 
+
+Rosie: Honestly, I just have one concern before signing, and it’s the salary level. Since I’m relocating, there’s a cost-of-living adjustment that I’m factoring in. With my current salary of $86,000… 
+
+That’s a lie. I’m only making $70k. But Patrick doesn’t know thattttttttt. 
+
+Rosie: Anything less than $108,000 is a pay cut, if I’m living here in Los Altos. I have one other offer to consider in my city, so I want to crunch the numbers and make a call. 
+
+Patrick: I hear you, but are you taking into account the value of the benefits here? Really, they’re so generous. I told you about the self-care stipend, right? I use mine for monthly ayurvedic acupuncture. That’s why my skin glows the way it does. 
+
+Rosie: I could sign immediately if we do $115,000. Like, I could sign now. 
+
+I snap for emphasis. 
+
+Patrick: *sigh*
+
+Patrick: Give me two minutes. I’ve got to double-check with Bethianna. 
+
+Rosie: Thank you, Patrick!!
+
+Patrick: We’re so close. I can feel it. 
+
+Patrick leaves for a minute, but he comes back all smiles and confidence.  
+
+Patrick: Okay!! I got it all sorted out for you. Salary-wise, we can do 104,000. Aaaaaand we can offer you a $3,500 relocation stipend! We appreciate you moving out, so we want to make that transition easier. 
+
+It’s not what I wanted. It doesn’t PROVE that I’m better than my Dad. But it is a shit ton of money. What am I gonna do?? I take a breath, and look deep inside my heart…
+
+// Pigeon appears. 
+
+Suddenly, an 11/10 gorgeous tall-glass-of-water appears in the doorway. 
+
+Rosie: *gasp* 
+
+They’re fucking beautiful, and more importantly – that OUTFIT. The lace? The midriff? The COLLAR?? This person looks like they just finished simultaneously hooking up/trying to assassinate John Wick in a vampire nightclub. I stare in awe. 
+
+// Expression: Rosie’s eyes water with happy tears. 
+This is concrete proof that the outfit standard at the office is FLEXIBLE. I’ll be able to bust out whatever I want to as long as I look good. If they’re wearing that number, I think I could get away with a Sailor Moon ensemble (as long as I wear it on a Friday). This place really is heaven. 
+
+// small font
+Pigeon: …patrick. 
+
+This person speaks so quietly. 
+
+Patrick: Oh! Hi hi, Pigeon. What’s up? 
+
+Patrick stands up and goes to the door. This mysterious newcomer speaks to him in hushed tones, glancing back at me. 
+
+Patrick: Rosie, I know it’s getting late – it’s already past 5:00 pm. But do you have an extra thirty minutes? There’s one more person who wants a chance to speak with you. 
+
+Rosie: Oh, of course! I’d love to. 
+
+Patrick: Ah, thank you! Super appreciated. You’re going to be in Pigeon’s capable hands. They’re amaaaaaazing. And they’ll take it from here. 
+
+Pigeon: Follow me, please. 
+
+I mentally prepare myself for one more round of small talk, but Pigeon immediately turns away from me and strides forward. I guess they’re going to make me work for it. Honestly, I don’t blame them. From one hot femme to another, I understand and I salute.
+ 
+Rosie: Thank you, by the way. All my conversations today have been so illuminating. I’m excited to speak with you as well. 
+
+We continue weaving through the building, heading towards the back.
+
+Pigeon: I’m just your guide to the elevator. 
+
+! 
+
+Rosie: Ha, oops! Who am I speaking with, then? 
+
+Pigeon: Augustine Aagard. Co-Founder of Cognos, Chair of the Board of Directors, and Chief Executive Officer.
+
+!!
+
+Pigeon: His private office comprises the entire 7th floor. 
+
+Rosie: Oh! 
+
+!!! Private??? 
+
+Rosie: Wait, there’s a seventh floor??
+
+Pigeon: This is extremely unconventional for Mr. Aagard. 
+
+Rosie: It is? 
+
+They sigh, super condescendingly. 
+
+Pigeon: He takes very few meetings. And even fewer interviews. 
+
+I seem to be pissing Pigeon off with my questions. Or maybe they feel threatened by me? In any case, I don’t like the energy between us right now. I’ve gotta do something. Reset somehow. I’ll… use a joke to break the ice!
+
+Rosie: Augustine doesn’t take meetings? Why? 
+
+Does his wife take issue with him speaking to young, gorgeous hirees? 
+Too busy having an affair with his secretary, I presume?
+
+=== Does his wife take issue 
+Pigeon: … 
+
+FUCK. THAT BOMBED. I’m an idiot!!!!!
+
+Rosie: I’m totally kidding. My name’s Rosie, by the way. And I love your outfit. 
+
+Pigeon: … Pigeon Mendoza. I am the Executive Assistant for the entire C-Suite team. 
+
+Rosie: The whole team? Impressive. 
+
+Pigeon stops walking, and turns back to look at me. Oof, I looooove the way they tower over me in their six inch heels. I suddenly feel the urge to cartoonishly gulp. Why is this the most nervous I’ve felt all day…
+
+I thought I was dealing with a fashion crush, but my loins are now telling me it’s more of a crush-me-under-your-six-inch-heels crush. This would also explain my terrible attempt at humor earlier. I get squirmy in the presence of a dominant femme. God, they’re attractive.
+
+Pigeon: Have you met Mr. Aagard before? 
+
+Rosie: No, I haven't had the pleasure. 
+
+Pigeon: And you don't have ANY idea why he would request you? 
+
+I shake my head no and bite my lip like I’m a lost little puppy dog. It doesn’t seem to have any effect on Pigeon because they just turn and continue walking. Of course the oldest trick in the book isn’t going to work on them, Rosie! Get your head in the game!!
+
+We arrive, at the end of a quiet hallway, to a pair of marbled elevator doors. This elevator looks different and way fancier than anything I saw downstairs. There is no discernable button to call it. Pigeon just stands there and waits, while I stand behind them and think about how their heels are doing wonders for their ass. I am no better than a man. The carnal objectification is HAPPENING. 
+
+Pigeon: There is no wife, by the way. 
+
+Rosie: Hm? 
+
+Pigeon: I have managed Mr. Aagard’s personal and professional calendar for years. There is no wife, no girlfriend, no discernable partner of any kind. Few friends and fewer family. He is reclusive to a fault. 
+
+I lock eyes with Pigeon as I take in this information. What are they trying to tell me? 
+
+Pigeon: Typically, Mr. Aagard’s direct attention is a very bad thing. I want to make sure you’ve prepared yourself.
+
+Prepared myself for what!? I should find their way of speaking in riddles frustrating, but it’s only adding to their mysterious edge. They’re like a sexy sphinx that hates me. 
+
+=== is he too busy porkin his secretary 
+Pigeon: … 
+
+FUCK. THAT BOMBED. I’m an idiot!!!!!
+
+Rosie: I’m totally kidding. My name’s Rosie, by the way. And I love your outfit. 
+
+Pigeon: … Pigeon Mendoza. I am the *Executive Assistant* for the entire C-Suite team. 
+
+MY DUMB ASS NOT ONLY JUST ACCUSED THEM OF GETTING DOWN AND DIRTY WITH THEIR BOSS, BUT ALSO USED THE ANTIQUATED TERM SECRETARY!?!! WHAT YEAR IS IT, 1954???? Maybe if I just brush past it…
+
+Rosie: The whole team? Impressive. 
+
+Pigeon stops walking, and turns back to look at me. Oof, I looooove the way they tower over me in their six inch heels. I suddenly feel the urge to cartoonishly gulp. Why is this the most nervous I’ve felt all day…
+
+I thought I was dealing with a fashion crush, but my loins are now telling me it’s more of a crush-me-under-your-six-inch-heels crush. This would also explain my terrible attempt at humor earlier. I get squirmy in the presence of a dominant femme. God, they’re attractive.
+
+Pigeon: Have you met Mr. Aagard before? 
+
+Rosie: No, I haven't had the pleasure. 
+
+Pigeon: And you don't have ANY idea why he would request you? 
+
+I shake my head no and bite my lip like I’m a lost little puppy dog. It doesn’t seem to have any effect on Pigeon because they just turn and continue walking. Of course the oldest trick in the book isn’t going to work on them, Rosie! Get your head in the game!!
+
+We arrive, at the end of a quiet hallway, to a pair of marbled elevator doors. This elevator looks different and way fancier than anything I saw downstairs. There is no discernable button to call it. Pigeon just stands there and waits, while I stand behind them and think about how their heels are doing wonders for their ass. I am no better than a man. The carnal objectification is HAPPENING. 
+
+Pigeon: They’re Balmain. 
+
+Rosie: Pardon?
+
+Pigeon: You have been staring. You’re clearly curious. The heels are Balmain. 
+
+Rosie: Thank you… but that’s not why I’ve been staring. You’re stunning. I can already tell that the best part of my workday will be seeing what look you’ve assembled. It’s an art. 
+
+Pigeon: You have not been hired yet.
+
+Ouch.
+
+Pigeon: But if you do get the job, the tawdry affair with the CEO is all yours, I assure you. That is far too passé for me. Much like your attire.
+
+They’ve fully perfected the art of the ice cold bitch. Brava.
+
+=== rejoin point 
+I hear a ding. The doors slide open, almost too smoothly. 
+
+Pigeon: Good luck, Rosie. 
+
+I have a single moment to say goodbye to Pigeon. 
+
+Should I be scared? 
+When I work here, let’s be friends. 
+I’d love to buy you a coffee sometime.
+
+=== scared 
+
+Pigeon: Absolutely. 
+
+=== lets be friends 
+
+Pigeon: Absolutely not. 
+
+=== I’d love to buy you a coffee sometime. 
+
+Pigeon: Tch. 
+
+=== end of pigeon scene
+
+They’re hard to read, but I think I see a tiny bit of warmth in their expression. 
+
+Pigeon: Oh, and one last thing. 
+
+// The doors begin to close. 
+
+Pigeon: He prefers Mister Aagard. 
+
+// Rosie raises an eyebrow.
+
+Rosie: Understood. 
+
+// A soft ding. The doors close. 
+
+=== AUGUSTINE INTERVIEW
+
+// Background assets for this scene: Elevator, Augustine hologram (dark), Augustine hologram (light), Handshake, Desk, Biometrics, Wrist Grab, Kiss
+
+// We see Rosie from the elevator security camera. Introducing this perspective. When we get an elevator sex scene, we’ll see some of it from this security camera view. Also works with the AI watching them. 
+
+The elevator is fast, but not fast enough. I’m impatient. I already got an offer. Why am I here? What the fuck was Pigeon warning me about? 
+
+I have to consider the possibility that Pigeon was fucking with me. Were they trying to psych me out? Throw me off so I would make a bad impression? This bazillionaire CEO wouldn’t be openly creeping on any random Jezebel that walks through the door for an interview. That’d be too bold, even for a corporate king of his caliber. Experience tells me that he is probably old or ugly or both. 
+
+My mind flies through possibilities. This could still be innocent. Does he know my old boss from something? Or an old Professor? Do we have the same Alma Mater? 
+
+Or… is he revoking the offer? Oh no. Is it over, now, before it’s even begun? 
+
+When I was googling around Cognos’ management structure, it seemed pretty clear that Amir was the sparkling prince at the helm of the Cognos ship. Augustine Aagard was listed as founder and CEO, but there’s almost nothing about him online. Only, like, a few interviews from five or six years ago! I’m surprised that he even works in the office. 
+
+But I can’t waste time wondering why he wants to talk to me. It doesn’t matter why. The thing that matters is that I get a tiny snippet of facetime with a man who is way, way, way, way more important than me. My heart is throbbing. 
+
+I need to impress him. That would get me places. I am focused and a little scared. I reach into my purse for my travel perfume, and reapply a tiny dab on my neck. I can do this. 
+
+Another ding. The doors open into a dark hallway. I carefully step forward. 
+
+Immediately, this floor feels different. The rest of the office is bougie but kinda goofy. There is absolutely nothing goofy up here. It’s sleek and dark and scary. Lots of wood details, but concrete floor and walls. Somehow, the air smells fresher. It’s not giving rich. It’s giving wealthy. 
+
+// Office background. Augustine is standing at his work station, facing away. It is a huge, hyper-modern setup, with a magnetized base on the floor and floating keyboard. Augustine does not have monitors – he uses holo-tech displays projected from below. They surround him in a sphere-ish configuration. These displays project lines of code. He is programming. Crucially, it is very DARK in his office. The only light comes from the blue glow of his holograms. Augustine is wearing a suit shirt (and tie) with no blazer, suspenders, and his sleeves are rolled up.
+
+I move forward into a large, cold office. There he is. 
+
+I once had an art teacher tell me why Las Meninas is so good. My teacher said that the painting catches your eye immediately, at the brightest point, and the rest of the image sensuously guides your gaze to every detail in a satisfying spiral. 
+
+I think of Las Meninas when I see this man’s shoulders. My eye immediately catches at the seam of his white dress shirt, and I trace the folds in the fabric across his back and down and up. Some gray in the hair tracing up his neck, but his hair is dark. He’s huge. My mouth waters. 
+
+I see him cock his head. He heard my footsteps. Fuck. He’s about to turn around. I have to focus. 
+
+Augustine: Ah. You’re here. 
+
+Augustine: Let me open the blinds. 
+
+// The background changes. Augustine’s office – sunlight version. The holographs fade, though you can still see the magnetized base on the floor and the keyboard. 
+
+He hits a button, and the room changes. Warm, beautiful sunlight streams in from all directions. I watch, as all of the windows turn translucent where they once were a dark, opaque, glare-blocking black. The black fades in a hexagonal pattern, and I see that the concrete walls are lined with many huge panes of reinforced glass. There are sun lights on the ceiling, too. 
+
+Augustine: I’ve been waiting for you, Miss Woods.
+
+// Augustine turns to face her. 
+Augustine: …
+
+Fuck me. Clark Kent Glasses. 
+
+Augustine: …
+
+He is staring me dead in the eyes. Younger than I thought he would be. 
+
+Augustine: … 
+
+We’ve been silent for just a moment too long. Is he nervous? Whatever, not the first awkward tech guy. I’ll rescue him. 
+
+Rosie: Yep, that’s me – Rosie Woods, at your service! This office is beautiful, by the way.
+
+No time to be timid. I step forward, and go in for the handshake. 
+
+// an image of the two hands, shaking. Rosie has pink press-ons. Augustine’s hand is huge and hairy. He’s wearing a watch. 
+
+We shake hands. His hand is so much bigger than mine. I try so hard not to notice. If he wanted to, he could crush my wrist into pulp.
+
+Augustine: I am Augustine Aagard. 
+
+Hit him with the charm ray, baby. Full blast. 
+
+Rosie: It’s such an honor to meet you, Mr. Aagard.
+
+I feel his grip tighten. 
+
+Augustine: … 
+
+He holds on just a moment too long. Or is that my imagination? 
+
+// Change to a desk background in this office
+Augustine: Please, right this way. Have a seat. 
+
+He leads me to his desk. There’s a normal chair on one side, and a Daddy chair on the other. I go for the normal chair – I know I’m not Daddy! Augustine pulls out my chair, and I feel like a lady. 
+
+Rosie: You know, you caught me in the midst of final negotiations. I was lucky enough to get an offer! The cherry on top of a wonderful day. 
+
+Augustine: Yes. I’m aware that Cognos has made you an offer. 
+
+Augustine: An offer that you have yet to accept. 
+
+Rosie: That’s true. 
+
+I try to sound polite and obedient. 
+
+Rosie: It’s been a whirlwind of a day. I’ve thoroughly enjoyed meeting your team.
+
+Augustine: Good. The facilities are to your liking? Does it all suit you?
+
+Rosie: Thank you for asking!! Yes, this office is impeccably designed, spotless, comfortable, imaginative. It’s totally Disneyland down there. 
+
+// Augustine laughs but does not yet smile. There’s still something he needs. 
+Augustine: Oh, ho ho. If Cognos is Disneyland, then Amir is Mickey Mouse. 
+
+Rosie: And you are the cryogenically frozen head of Walt himself. 
+
+Augustine: Hmph. Amusing. 
+
+I catch a whiff of… cedar-eucalyptus-peppercorn. I look down, and see my resumé sitting on his desk. It’s my special scenter paper – the same resumé I gave Patrick this morning. 
+
+Augustine: So you’ll accept the offer? 
+
+Rosie: I’m almost definitely sure that I will. 
+
+// augustine annoyed expression
+He looks annoyed. Uh oh. 
+
+Rosie: I do feel very lucky to have a few moments with you this afternoon. I understand that not every interviewee gets the pleasure. Is there any particular matter at hand? 
+
+Subtext: Excuse me Mr. Reclusive CEO, why am I here??? 
+
+Augustine: Your acceptance is the matter at hand, Miss Woods. My primary objective is to ensure that you take the job I am offering you. I can tolerate no further hesitation. 
+
+Augustine: Once that’s settled, I have a small favor to ask. 
+
+Rosie: A favor? 
+
+Augustine: Miss Woods. What hesitation prevents you from signing a contract? It must be today. 
+
+Rosie: Um… May I be frank with you? 
+
+Augustine: I demand it. 
+
+Rosie: It’s a salary issue. 
+
+Augustine: I see. Let’s resolve this immediately. 
+
+Augustine: What number would satisfy you, Miss Woods? 
+
+Rosie: I can’t sign for one penny less than… 
+
+$112,000 
+$148,000
+$450,000
+
+=== 112
+
+He laughs, low and cruel. I can feel the blush rising to my cheeks. 
+
+Augustine: That’s all? 
+
+Augustine: Done. 
+
+// Takes off his glasses, squeezes his nose with his fingers
+Augustine: To think that we might’ve let you walk out the door today over a few thousand dollars… It burdens me. 
+
+Augustine: Rosie, do you ever feel like the only reasonable person in the entire world? 
+
+Rosie: Yes, I know just the feeling. 
+
+And I'm not just saying that. Wow, first time all day.
+
+Augustine: How comforting. 
+
+Augustine: Regardless, my staff is competent, but one must keep a steady hand on the reins. This is not the first instance when my direct intervention has been crucial to the future of this company. 
+
+Rosie: Are you implying that my employment is somehow “crucial to the future” of Cognos? 
+
+Augustine: Are you implying that you’ll accept my offer? 
+
+=== 148
+Augustine: Done. 
+
+// Takes off his glasses, squeezes his nose with his fingers
+Augustine: To think that we might’ve let you walk out the door today over a few thousand dollars… It burdens me. 
+
+Augustine: Rosie, do you ever feel like the only reasonable person in the entire world? 
+
+Rosie: Yes, I know just the feeling. 
+
+And I'm not just saying that. Wow, first time all day.
+
+Augustine: How comforting. 
+
+Augustine: Regardless, my staff is competent, but one must keep a steady hand on the reins. This is not the first instance when my direct intervention has been crucial to the future of this company. 
+
+Rosie: Are you implying that my employment is somehow “crucial to the future” of Cognos? 
+
+Augustine: Are you implying that you’ll accept my offer?  
+
+=== 450 
+
+Augustine: Hmph! That would certainly raise a few eyebrows. I delight in your ambition, young Miss Woods. 
+
+Augustine: Allow me to counter. Salary of $148,000, full coverage of all relocation expenses, and… 
+
+He opens a desk drawer, pulls something out, grabs a fountain pen, and begins writing. 
+
+Augustine: this. 
+
+He tears along a perforated line, and reaches across the desk to hand me a paper check. It’s thick, like his checks are made out of bed sheets. 
+
+My name, written in his handwriting. His signature. It’s for $17,000.
+
+WAIT, DID I READ THAT RIGHT, WHAT THE FUCK, SEVENTEEN GRANDJ;LKSDJF;LAKSDjF – 
+
+Rosie: This… A business expense? Or… the relocation stipend? 
+
+Augustine: No. A personal gift. I would give you more, but a cent further and you’d need to declare it on your taxes. The only catch is you accept my offer. 
+
+// Rosie happy tears
+I want to take his money so bad. My fingers trace a lustful little circle on the paper. If I want, I can transform this tiny piece of paper into my very first Birkin bag. I’m holding a wish in my hands.  
+
+Rosie: I can’t accept – 
+
+Augustine: Nonsense, Miss Woods. Nonsense. 
+
+Rosie: … 
+
+Rosie: Thank you very, very much, Mr. Aagard. 
+
+I reward him by tipping my chin down and peeking up through my lashes. 
+
+//blush
+Augustine: This much is nothing.
+
+=== rejoin post-negotiations 
+
+Rosie: Fine, fine. I know when I’m cornered. I’ll sign. 
+
+Augustine: Here and now, in fact. 
+
+Mr. Aagard produces a contract from the desk drawer and slides it over.
+
+VERIFICATION OF EMPLOYMENT AT COGNOS CORP. 
+
+Dear Roslyn Woods, 
+
+Cognos, Corporation (the “Company”) is pleased to offer you employment on the following terms… 
+
+It’s the same one that Patrick gave me, but it’s been updated with the numbers that Mr. Aagard and I negotiated. I flip through it, reading more carefully than I did the first time. 
+
+You’re a busy man. Is this really worth your personal attention? 
+Why does it have to be today? 
+What’s it like to have a name with so many A’s in it? 
+
+=== You’re a busy man. Is this really worth your personal attention? 
+Rosie: You’re a busy man. Is this really worth your personal attention? 
+
+Augustine: You are right for the job. 
+
+But the look in his eye says: You need to understand that I will take care of you. 
+
+Why are you doing this? 
+Why does it have to be today? 
+What’s it like to have a name with so many A’s in it? 
+Are you trying to force me? 
+
+=== Why does it have to be today? 
+Rosie: Why does it have to be today? 
+
+Augustine: Hm… Because I dislike unresolved variables. 
+
+Why are you doing this? 
+Why does it have to be today? 
+What’s it like to have a name with so many A’s in it? 
+Are you trying to force me? 
+
+=== What’s it like to have a name with so many A’s in it? 
+Rosie: What’s it like to have a name with so many A’s in it? I count four and that doesn’t even include your middle name. 
+
+Augustine: My middle name is Ulysses. Augustine Ulysses Aagard, III. Four A’s in total. 
+
+I giggle. The man has me giggling. 
+
+Augustine: I suppose I like it fine enough. But what about you? You don’t have a single A in your name at all. How miserable. 
+
+Rosie: You’re right, actually! My middle name is Felicity, so no A’s at all in the whole thing. Miserable indeed. 
+
+Augustine: Perhaps you should change your name. 
+
+Rosie: ARosie AAWoods, perhaps? 
+
+Augustine: Hmph. That’s better. But… 
+
+Augustine: I’d rather you change your last name. 
+
+// Rosie blushes
+Rosie: Oh, ha! Um… 
+
+Why are you doing this? 
+Why does it have to be today? 
+What’s it like to have a name with so many A’s in it? 
+Are you trying to force me? 
+
+=== Are you trying to force me? 
+
+Rosie: Are you trying to force me? 
+
+Augustine: No. I am trying to persuade you. 
+
+=== rejoin point after questions
+His unrelenting stare has me feeling mighty persuaded. I happily sign my John Hardcock at the bottom. 
+
+// Rosie sound FX: happy sigh
+Rosie: You win, Mr. Aagard. 
+
+Augustine: I generally do. 
+
+He looks pleased. 
+// The first time Augustine openly smiles. He got what he wanted. 
+
+Rosie: By the way, you mentioned a favor? 
+
+I’m only 3% scared that he’s going to demand a blowjob. 
+
+Augustine: Ah, yes. Follow me. 
+
+He leads me through a door. Is this the blowjob room??? 
+
+// fade to black 
+
+The next room is dark. I squint, and as my eyes adjust, it all comes into view. 
+
+Rosie: Oh!
+
+// The gel pod background. Indeed, it is dark here. There are no lights overhead, just light emanating from a mysterious machine-setup – computer towers, a screen, tubes, kind of like a medical device. The whole thing is set-up around a tall pod of glowing green gel. Cameras and eye-movement detectors. 
+
+He meets my eye, but he doesn’t smile. He looks a little… tense? 
+
+Rosie: Is that a biometric reader, by any chance? 
+
+Augustine: It is, yes. 
+
+Augustine: As I’m sure you are aware, Cognos backpropagation outpaces every other algorithm on the market. That is possible due to the sheer size of our testing apparatus, but also… 
+
+Augustine: Because we utilize biometrics. Immediate data collection. No reliance on self-report. Thousands of samples per second, limited only by the speed of the medial rectus muscles in your eye. 
+
+// He smiles. 
+
+He takes a deep breath, and I see him relax just a little. He likes to talk about his work. I can be a very good listener. I feel a primal urge to shut my mouth and follow all of his orders to the best of my feeble ability. 
+
+Augustine: Miss Woods, would you be open to a brief biometric collection? 
+
+(say nothing) 
+Is it safe, sir? 
+
+=== say nothing 
+
+I cock my head to one side, and open my mouth. Like I’m about to speak, but I’m just so taken aback that the words aren’t coming out. I look super cute when I’m pretending to be confused. 
+
+Augustine: Let me explain further. You’ll place your hand in this biometric sampler. It’ll measure your pulse, temperature, and fingertip nerve activations via electric current. 
+
+He gestures towards the green gel in the biometric collector. 
+
+Augustine: The monitor will display a series of rapid visual samples. There are also eye-motion trackers installed in the apparatus. You’ll keep your eyes trained here. 
+
+Augustine: The entire test I’d like to run is 78 seconds, start to finish. 
+
+(say nothing) 
+Is it safe, sir? 
+Of course, Mr. Aagard. 
+
+=== Is it safe, sir? 
+
+If he likes Mister Aagard, he’s going to like Sir. I throw it out with an extra measure of submissiveness. 
+
+// Augustine surprised expression 
+Augustine: Of course, Rosie. 
+
+// Augustine slight blush
+Augustine: This biometric model has been used for two years without incident. It is entirely harmless. 
+
+That Sir worked. My heart beats a little faster. It’s so hard to find a competent dom nowadays. 
+
+// Augustine is back to serious face 
+Augustine: I would not ask if I was not 100% confident in the device’s safety. 
+
+Augustine: This sample set is simply the most recent drafted by the neural network. Nothing particularly nefarious. 
+
+(say nothing) 
+Is it safe, sir? 
+Of course, Mr. Aagard. 
+
+=== of course, mr aagard
+
+Augustine: I appreciate it. After all, how will I achieve world domination if I do not test my strange and newfangled contraptions on the innocent? 
+
+Rosie: Ha! 
+
+Augustine: Come here. Place your hand inside the apparatus. 
+
+The gel is cold and squishy and weird. 
+
+Augustine: I’ll apply one EMT device to your neck. May I? 
+
+Rosie: Y-yes. 
+
+Augustine: Stay still. 
+
+A small device in his hand. It’s a thin wire, connected to a little beige sticker. He lays a single finger on me – sweeping the hair on my nape away, and carefully placing the sticker against my skin. He touches me so lightly. It’s not enough. There’s a voice in my head, screaming, “Stop it! He’s not some random DILF fuck n’ chuck you met at a Father’s Day barbeque!! He’s your boss’s boss’s boss, he is thoroughly OFF-LIMITS!!!” But somehow that voice is very far away, and very quiet. 
+
+Augustine: I am going to initiate the testing sequence. 
+
+Rosie: I’m ready, Mr. Aagard. 
+
+Augustine: Excellent. Keep your eyes on the center of the screen, and I’ll play the response cues. 
+
+He steps behind me, and the screen in front of me lights up. I see a little black dot, and train my gaze upon it. 
+
+His voice goes quiet. 
+
+Augustine: Just watch. That’s all I need. 
+
+COMPUTERIZED VOICE FROM THE MONITOR: Cognos Machine Learning Agent. Response Sequence Echo.Delta V.1.11.11.2. Initiating… 3… 2… 1. 
+
+Suddenly, it’s an avalanche. The little black dot remains in the center of the screen, but it is surrounded by an extremely rapid, pulsing and shifting sequence, like I’m seeing the entire internet at once. Individual words and half-images, I think, in black and white, all displayed for less than a half second. I get a queasy feeling watching it, like my brain is trying to remember bits and pieces of what I just saw while getting inundated with a flood of more half-impressions. Did I see the word shoulder? The word boss? I feel a chill down my spine. On instinct, I try to yank my hand back, out of the cold green gel, and I find that I do not have the strength to remove it. A Rorschach image of Augustine fucking me on his desk? Or was it a pile of bunnies in a cage? Did I see the word submit? 
+
+I take a deep breath, focusing as much as possible on that black dot, trying not to let the deluge overwhelm me. But as soon as my pupils find it, resting on that innocent little black dot, the edges of my vision get fuzzy. I can see, in the last few moments of whatever the fuck this is, a cumulative image – something that emerges once I zoom out and see the pulsing, consistent shape of the madness: an eye. Something looking back out at me. Did I see Hi, Rosie? 
+
+And then, just as suddenly, it’s over. The screen is blank once again. I blink, trying to figure out exactly what I just saw. 
+
+Augustine: Excellent. The data collection is complete. 
+
+Ask him to see it again. 
+Get the fuck outta there. 
+
+=== Ask him to see it again. 
+
+Rosie: Wait. Can I see it again? 
+
+Augustine: You want me to repeat the testing sequence? 
+
+Rosie: Yes… I just… I thought I saw something. 
+
+Augustine: As you wish, Miss Woods. 
+
+COMPUTERIZED VOICE FROM THE MONITOR: Cognos Machine Learning Agent. Response Sequence Echo.Delta V.1.11.11.2. Initiating… 3… 2… 1. 
+
+I watch it again. I definitely see shoulder and submit. And a few things I didn’t catch the first time: an image of a woman tied to railroad tracks? The word vote, I think? I try to relax my gaze again, looking for that eye staring back. Looking for Hi, Rosie. I don’t see it. 
+
+Rosie: Hmm… 
+
+I guess I was just imagining it. 
+
+Rosie: Thank you, Mr. Aagard. I’m satisfied. 
+
+As soon as the word "satisfied" leaves my mouth, my pussy reminds me that I'm actually very UNsatisfied. More touching nowwwwww. 
+
+=== get the fuck out of here/rejoin point
+
+I pull, trying to free my hand again. I can move my fingers through the gel like water, but it’s surprisingly… pressurized? I’ll have to pull kinda hard to get my hand out. 
+
+WAIT!!! This is an opportunity for him to TOUCH ME AGAIN. 
+
+Rosie: Uhm… I’m stuck, sir… 
+
+Augustine: Ah, should I help you out of the apparatus? 
+
+Rosie: Yes, please.
+
+// We see the wrist grab. This is the second cutaway shot to a Rosie/Augustine hand configuration. Voila, motif! 
+
+Mr. Aagard firmly grabs my wrist. 
+
+He’s so close. 
+
+Augustine: The trick is to do it slowly.
+
+Rosie: MMmph!
+
+// Return to Rosie and Augustine against the gel pod background. She has her hand out of the gel now. 
+
+// Rosie big blush
+I JUST MOANED OH MY GAODSIFUAOSDIHFXA;KJSHDLKFjH;KLDSHJfAK;LDSHJFAL;KSDHJF;LAKSJDL;KFAJSD;LFKJA;LSDKFJA;L
+
+Augustine: … 
+
+// small font
+Rosie: I’m so sorry, that surprised me. 
+
+I’m way too embarrassed to make eye contact. 
+
+// small font 
+Augustine: For today, I won’t keep you any longer. 
+
+The sexual tension has reached a peak and I can feel it, palpable in the air around us. I know because we are BOTH. WHISPERING!! There’s no non-horny explanation for that! 
+
+He walks me out, towards the elevator. I can still feel my face burning. I don’t usually slip up like that. Mr. Aagard is being weird too, though. Right? Or am I just seeing what I want to see? I sneak a glance at him out of the corner of my eye. His face is taut, but he’s staying close to me. He doesn’t look uncomfortable. He looks focused. Is he holding himself back? Will I? 
+
+We get to the elevator at the end of the hallway. The doors open automatically, and I am fully prepared to leave like a pure, innocent, safe-for-work angel. But before I can… 
+
+Augustine: Wait. 
+
+He grabs me by the elbow. His face is close to my ear. I can smell his cologne and it makes my insides melt like butter. I freeze like a deer that’s about to get fucked. 
+
+Augustine: Miss Woods, listen to me carefully. 
+
+Augustine: When you come back here… When you come to work for me… You will quickly come to learn what I already know. Do you understand? 
+
+
+RISK EVERYTHING. GIVE IN TO THE SWEET SIREN CALL OF YOUR BODY. FORGET YOUR DUMB JOB AND YOUR DUMB CAREER AND YOUR DUMB LIFE. REMEMBER THAT IN THE BLINK OF AN EYE YOU WILL BE AN OLD AND UGLY CRONE AND THEN YOU WILL BE DEAD. EMBRACE THE ONLY YOUTH YOU’LL EVER HAVE TO FROLIC IN. CLAIM YOUR RAPTURE NOW. KISS THIS MAN HARD ENOUGH TO BRUISE YOUR LIPS. 
+Be chill actually 
+
+=== Risk everything 
+Yes, I’ve made my decision. I can feel the heat of his body. I don’t lean away. I arch my back against him. My wrist wraps around his tie. He’s tense. His eyes are slits. 
+
+Rosie: You think you’re the boss of me, huh? 
+
+// Special Rosie/Augustine kiss art 
+
+I pull him closer, shut my eyes, and softly find his lips. It’s like tasting electricity. It’s an annihilating high and I need it. His face is so much bigger than mine. He growls, he kisses me back (I knew it, he wants me, I knew it) but the second I slip a little bit of tongue in his mouth – 
+
+He grabs me, hard, one hand on my waist and the other hand on the back of my head. With great force, he thrusts my entire body back against the wall. His fingers dig into me, and he counters my intrusion with more hot, greedy tongue. I just try to take it. 
+
+Rosie: MMMph! Mhhh! 
+
+He is pinning me against the wall, and I realize his knee has found its way between my legs. My pussy loves it, but some rational part of my brain awakens. It’s not too late to stop, and if I don’t stop now… I won’t be able to hold myself back if we go further. I can’t let someone come inside of me during a job interview. That’s where I draw the line. 
+
+I grab him by the shoulders, and shove him back. He yields, panting, just a few inches away from me. It’s insane but he looks at me like he loves me. I push past him, into the elevator. 
+
+Augustine: I’m not done with you, little one. 
+
+He stares at me, like a starving animal, until the doors whoosh shut between us. 
+
+// Rosie, in the elevator, blushing. She has collapsed to her knees, unable to stand. 
+
+Rosie: … 
+
+The elevator doors are going to open in mere seconds. I can’t think about this right now. I’ll replay every moment of what just happened to me as soon as I get in bed tonight. I do everything I can to calm my breathing. 
+
+Rosie: … 
+
+=== Be chill actually
+
+Something is weird, actually. He’s hot, but also… menacing? For a second, I wonder if I’m really into it. Either way, he’s obviously attracted to me, and that’s a weakness I can take advantage of. Time to tease him. 
+
+Rosie: You know, Mr. Aagard… 
+
+I don’t lean away. I glance up at him, tipping my head back so it just barely grazes his chest. 
+
+Augustine: Mmm… 
+
+Rosie: Talking to you feels like getting called to the Principal’s Office. 
+
+// flirty, mischievous smile 
+Rosie: Am I in trouble? 
+
+He groans like I’m torturing him. I don’t know for sure, but I’d bet all the money in my savings account that his cock is hard. 
+
+I push past him, into the elevator, and the doors whoosh shut behind me. 
+
+// Rosie, in the elevator, blushing. She is standing, her hands clapped against the sides of her face.  
+
+Rosie: Ha! 
+
+I had him wrapped around my finger. It was just for a moment and it could be a fluke, maybe he accidentally took a Viagra tab instead of an Adderall or something. I might not ever have a reason to see him again. But he definitely wanted me. 
+
+Rosie: I can exploit this. 
+
+=== rejoin point, the break up ===
+// Patrick appears. Cognos lobby. 
+
+Patrick: Hey girl! 
+
+// If you kissed Augustine, Rosie is super blushing and her hair is a little messed up.
+Rosie: H-hey!
+
+Patrick: I just got the email confirmation. Congrats!! We did it!! You’re hired!
+
+Patrick walks me out the door.
+
+Patrick: Your start date is in six weeks, so I guess I should say… 
+
+Patrick: See you soon, Rosie!! 
+
+Rosie: Ciao! 
+
+Oh my god, “ciao?” Why did I say that?? 
+
+Patrick: Ciao, girl!
+
+Never mind, he ate that up. I guess I’m unstoppable today. 
+
+I call an Uber and I fucking bounce. It’s 5:38pm. I have a new job, officially, in black and white. I have a shiny new life to unwrap, like an iPhone still in the box, with the sticky protector on the screen. I wanna peeeeeeeeeeeel off that protector, slowly.
+
+Speaking of iPhones, I got some notis. 
+
+= ManagerText
+My current boss texted me. Obviously, I didn't tell him that I needed time off to go interview at another job. I told him... 
+
+* My aunt Carol died. 
+
+* My aunt Betty June died. 
+
+=== Carol died 
+
+Manager: Rosie, you told me your aunt Carol died three months ago. You can’t possibly have TWO Aunt Carols. On Monday morning, we're going to have to have a chat about you taking this job more seriously. 
+
+Rosie: Fuck you, Steve!
+
+=== Betty died
+
+Manager: Your family has been through so much heartbreak in this past year… My sincerest condolences. 
+
+Rosie: Thanks, Steve! :( 
+
+// A new DM from Chase
+// All Chase/Rosie communication in this scene is via DM on her phone. 
+
+And another message…
+
+CHASE DOLDER: babyyyyy i missed you today
+
+Oh yeah, my boyfriend! I forgot about him. 
+
+CHASE DOLDER: how was ur interview?  
+
+I literally did not think about him once all day. 
+
+Rosie: I got the job, Chase. 
+
+Chase: woah! congrats! im happy for you. this year is gonna be so great for us
+
+For us???????????!?! This man clearly does not understand the stakes. He should have been praying to the Gods that I would fail this interview. He should have been sabotaging my every move. Getting this job means I’m moving across the country. Chase does not have the gravitational strength to keep me interested when we’re long-distance. I’m barely interested as is. 
+
+I look out the window of the car. The skyline of San Francisco stares back at me. The buildings bend and dance into the shape of Mr. Aagard’s chiseled jawline. I hear the echo of Queeblo: “I went out of my way to be your shiteater.” 
+
+I gotta break it to him. I text Chase back: 
+
+This is really hard, but we need to break up. I'm sorry, Chase.  
+There’s something I need to tell you. I’ve been sleeping with Katie for a while now. 
+
+=== This is really hard, but we need to break up. I'm sorry, Chase. MERCIFUL ==== 
+
+He calls me immediately. I ignore it. He calls again. 
+
+Rosie: I’d rather text. I’m too emotional to talk. 
+
+Lieeeeeeee. I am stone faced and dead-eyed in this Uber. But I’m going to be as merciful as possible. 
+
+Chase: are you being serious right now? 
+
+Rosie: We talked about this before I left, remember? You’re not in a place where you can uproot your life, and this opportunity is unmissable for me. Long distance is not going to work for us. 
+
+Long distance is not going to work for ME. I can barely be trusted to do short distance, and even then I keep a side piece for when I inevitably get bored. 
+
+Rosie: I know this sucks, but let’s be grateful for the amazing eight months that we’ve spent together. Someday, you’re going to find a girl who’s right for you, and you’re going to make her really happy. 
+
+Chase: rosie. i need us. you can’t do this to me
+
+Rosie: Please don’t drag this out, okay? It’ll be too difficult for me to see you in person. I’ll put your key back in your mailbox.
+
+Chase: we need to see each other as soon as you get back. i’ll pick you up from the airport. we have to talk about this more
+
+Rosie: No, we don’t. I signed a contract today. It’s official. 
+
+Chase: yes we do!! 
+
+I feel a surge of frustration. He’s being so annoyingly obstinate. If I let him bully me into another meet-up, it’ll just be hours of him complaining, demanding explanations, crying in my arms. I’ll be lucky if I get out of there before the four-hour mark. I’m not wasting half a Saturday on this. Time to rip off the band-aid. 
+
+Rosie: I think it’s genuinely hilarious how you can’t even listen to what I’m saying when I’m breaking up with you.
+
+Rosie: I’m not ASKING you if you want to keep seeing me. I’m TELLING you that I want no further contact from you whatsoever.
+
+Chase: are you really gonna fucking abandon me like this? 
+
+Rosie: This decision would’ve been harder if you had been a more interesting person. 
+
+Rosie: It’s over. Do you understand? 
+
+He doesn’t say anything. 
+
+Rosie: I need you to tell me that you get it, Chase. 
+
+Chase: i get it, rosie
+
+Chase: seriously fuck you 
+
+Rosie: I tried to be nice about this. 
+
+Rosie: Happy Birthday, btw. 
+
+=== i’ve been sleeping with katie, MERCILESS === 
+
+Chase: ha, good one 
+
+Rosie: I’m completely serious, Chase. Katie and I fuck when you’re at work. 
+
+Rosie: That’s why she’s been doing the dishes so often lately. She feels like a bad roommate because she’s fucking your girlfriend. 
+
+He calls me. I don’t answer. He texts me immediately.  
+
+Chase: PICK UP YOUR PHONE 
+
+Chase: are you fucking serious rosie? is this a joke? its not fucking funny
+
+Rosie: It’s not a joke. Ask Katie. 
+
+He doesn’t text me back for a long time. Katie messages me: 
+
+Katie: WTF rosie, why did you tell him?????? 
+
+A few minutes of quiet, but I know we’re not done yet. I wait, enjoying the sweet California wind blowing through the window. 
+
+Finally, I see an EIGHT-MINUTE LONG voicemail from Chase. This oughtta be good. I put the phone on speaker so the Uber driver can enjoy it with me. We start to listen. 
+
+TL;DR: he’s furious, he doesn’t understand, how could I do this to him, blah blah. I scrub through it. At the three-minute mark, he’s calling me a clam-sucking slut who’s too insecure to be loyal to anyone. I skip ahead – he’s screaming so loudly into the phone I can’t figure out what he’s saying. I skip to 7:30, just to see if there’s anything worthwhile at the end, and – yes! He’s crying. 
+
+I scrub back a little so I can get the full cry. He starts breaking down around just before the seven-minute mark. I enjoy his pathetic whimpers (but not in a sexual way), and then delete the voicemail. 
+ 
+I shouldn’t, but I text Chase again. I’ve been so, so good today. I deserve it. 
+
+Rosie: Sometimes we’d fuck in your bed. And if you’re wondering, yes, we have been laughing at you behind your back. 
+
+Chase: NEVER COME BACK TO THIS APARTMENT WHORE
+
+I record a video of me: throwing the key to his apartment out the window of the Uber and flipping him off. I look cute!! Send.
+
+Chase: CHOKE ON IT WHORE
+
+Ha! Hilarious. That doesn’t even make sense. He’s losing it. 
+
+Rosie: Happy birthday btw. ;)
+
+=== final outro
+
+I block him forever on everything. Ahhhhhhh. That feels good, like casting a heavy weight off my shoulders. I guess the thrill of the CHASE is gone! Mwahahahaha! What a fantastic day! 
+
+I actually got the job. It worked out better than I ever would’ve expected. It’s all happening for me! In one year, I’ll be fully established as a high-performing member of Cognos Product. There’ll be stock options just a few rungs up the ladder, and one leapfrog away to the C-Suite. I recklessly fantasize about a business card that reads, “Rosie Woods, VP of Cognos Product.” What utter pleasantness, to feel your life changing right before your eyes!! I’m so happy! 
+
+In a few short weeks, I’ll be back here. Then the real game will begin. My first priority will be to establish myself within Cognos’ social hierarchy. I’ll need to perform well enough at the job, but that won’t keep me safe (or help me ascend) nearly as easily as just being popular and well-known. Where to start? 
+
+I think of everyone I met today – Patrick, Jaxon, Judith, Queeblo, Amir. I push myself harder to remember. There was… Joon, the introvert with the mutt (Pancake, the mutt’s name was Pancake). Amir was talking to Richard and… Bethianna. Patrick mentioned Bethianna too. Then Pigeon, of course. Pigeon was unforgettable. And Queeblo gave me a list: Chika, Mal, Pitt. (And Grandpa? That must’ve been a joke. I pray it was a joke.). 
+
+It’s an incomplete picture, but I try to visualize the implied office pecking order. I’ll need to fortify my place on Product. It’s clearly the Golden Child of Cognos, and my proximity to the engineers will yield useful social capital. It’ll be equally useful to be on Amir’s good side, and he’s easy to please. But there’s no way around it – I’m going to have to get real buddy-buddy with Jaxon and Judith. God help me. Where are my other penetration points? 
+
+Queeblo’s my best bet, for sure, but I wonder how far his influence extends up the Cognos ladder. Patrick is amenable, and I think he liked me well enough, but HR feels distant somehow. They’re up with Legal, on the sixth floor. My gut says he won’t be a reliable in with the cool people. Pigeon is a non-starter – they’re very clearly removed from mainstream channels – but I’m curious about who’s closest to them. Does that icy Executive Assistant have any work friends at all? They just don’t seem the type. 
+
+And of course, there was Augustine. Excuse me, Mr. Aagard. 
+
+=== if you got the $17k check 
+I feel his fat check burning a hole in my wallet. I take it out, just to admire it again. It didn’t feel real, but here it is – his money, in my hands. I smell the paper. 
+
+=== if you kissed Augustine 
+
+That kiss was pure poison. I’m turned on just thinking about it. 
+
+There is absolutely no denying it. He’s coming for me. It might not be right away. If he’s cruel, he might make me wait for months. But he said he wasn’t finished with me, and I believe him. Am I going to let him do whatever he wants to me? 
+
+My libido is strongly in favor. But there’s another feeling present – it’s pride, my gorgeous pride – telling me that he hasn’t earned it yet. 
+
+I don’t trust him, but I’m not worried about my job. He wants me there. And whatever else he wants from me, I’ll make him prove that he deserves it. He’ll have to pony up big-time to get in my panties. But… 
+
+=== if you didn’t kiss Augustine 
+
+The more I think about it, the more convinced I am that today was a fluke. No mid-level corporate lackey like me would have reason to bother the CEO. I doubt men that rich even move their bodies through public spaces. I will probably never see him or speak with him again. 
+
+But… 
+
+Let's be honest. I'm not ABOVE fucking him. Is he so beyond my reach? Is it so impossible? He was noticeably being a tense horny freak at me. And after all… 
+
+=== rejoin point 
+
+Isaac Newton was pregnant. Pregnant with a question, seeded by the Universe. He felt his great question, tugging on him, always, unyieldingly, from the very center of all things. He was called to his mystery, destined to find the answer. His question: what is the force that pulls us ever downward, that which yanks us back to the Earth? 
+
+I, too, have a divine question given to me by the universe.
+
+ As I fantasize about that veined-out, smoldering billionaire, I wonder: How big is it? 
+
+END OF PROLOGUE
+
+*/
