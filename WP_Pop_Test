@@ -1,0 +1,127 @@
+VAR WorkPerformance = 0 
+VAR Popularity = 0 
+
+-> Q1W2_MON_JJWPIntro
+
+=== Q1W2_MON_JJWPIntro
+
+Last night at 11:30pm, Jaxon sent me a calendar invite for a 1:1 meeting, bright and early. No agenda attached. What’s this about? I feel shivers of fear down my spine. Best case scenario: he’s quitting his job due to a deadly disease he has contracted. Worst case scenario: he wants me to rub his feet. 
+
+// BG: Meeting Room, Jaxon and Judith sprites 
+
+Rosie: Morning! Ahh, Judith, happy to see that you’re joining us. 
+
+Jaxon: Hey, kiddo. 
+
+Judith: Good morning, Rosie. Take a seat. 
+
+Jaxon: Now that we’ve finished all the onboarding bullshit, we can actually have you start doing your job. Finally! 
+
+Rosie: I know, right? I’m eager to get into the weeds. 
+
+Jaxon: And get into the weeds you shall. But Judith insisted that we give you a “high level” blah blah blah so you know what is “expected.” 
+
+Rosie: Ahh, I see. We’re here to discuss performance metrics. 
+
+Judith: …Yes. And I know that work evaluation isn’t the most exciting thing in the world, but keeping things standardized is how we ensure fair treatment across all employees. 
+
+Judith airdrops me a massive spreadsheet, entitled: Cognos Product Lead Performance Evaluation Metrics. 
+
+Judith: You’ll see that all of your responsibilities are listed here. At the end of the quarter, we’ll conduct your overall Performance Review. I’m sure you’ve seen this kind of 5-point scale before. One means “Unacceptable,” Two means “Needs Improvement,” Three is “Meets Expectations,” Four and Five are “Exceeds Expectations” and “Outstanding.” 
+
+// Non-Diegetic Pop-Up: 
+At the end of every quarter, you’ll attend your PERFORMANCE REVIEW. Level up your WORK PERFORMANCE to succeed! 
+
+// The Work Performance progress bar should be split into five sections: (5– Outstanding, 4– Exceeds Expectations, 3- Meets Expectations, 2- Needs Improvement, 1- Unacceptable)
+// 
+
+Jaxon: Since I’m the one who’s working with you most intimately on the day-to-day, I’ll be grading the skills that have to do with your team performance. 
+
+Judith: And I’ll be evaluating your generalized Product Lead responsibilities. 
+
+Rosie: Understood! So I’ll have to achieve these standards to meet expectations… It’s great that this is outlined so clearly. 
+
+Jaxon: Rosie. Stop looking at the spreadsheet. Look at me. 
+
+I turn my gaze towards his beady pig eyes. My hatred burns. Should I fuck this guy’s wife? 
+
+Jaxon: You’re gonna do more than MEET expectations. I wanna see FOURS and FIVES across the board. Got it? I&A doesn’t fuck with threes. 
+
+Judith: I agree. You’ve got too much potential to aim for the middle of the pack. 
+
+Judith: Any questions? Does this all make sense? 
+
+So they’re expecting me to exceed their expectations? I love how much sense it makes. It makes SO MUCH SENSE!!!!!!!! 
+
+Rosie: Crystal clear! Thanks for walking me through it. I’ll get started exceeding!! 
+
+* [Let's go!]
+    -> Q1W2_TUES
+
+=== WP_POP_MENU
+
+Work Performance: {WorkPerformance}/10
+Popularity: {Popularity}/10
+
++ [Increase WP]
+    ~ WorkPerformance += 2.5
+    Work Performance: {WorkPerformance}/10
+    {->WP1 |->WP2}
++ [Increase Popularity]
+    ~ Popularity += 2.5
+      Popularity: {Popularity}/10
+    { ->POP_1 |->POP_2 }
+
+=== Q1W2_TUES
+
+QUARTER 1; WEEK 2; TUESDAY 
+-> WP_POP_MENU
+
+=== Q1W2_WED   
+
+QUARTER 1; WEEK 2; WEDNESDAY
+-> WP_POP_MENU
+
+=== Q1W2_THURS  
+QUARTER 1; WEEK 2; THURSDAY
+-> WP_POP_MENU
+
+=== Q1W2_FRI_PAYDAY
+-> WP_POP_MENU
+
+
+=== WP1
+
+WP1 PROOF TEST 
+
+* { Q1W2_FRI_PAYDAY } [Last line] -> END
+* { Q1W2_THURS } [Last line] ->Q1W2_FRI_PAYDAY
+* { Q1W2_WED } [Last line] -> Q1W2_THURS
+* { Q1W2_TUES } [Last line] ->Q1W2_WED
+
+=== WP2
+
+WP 2 PROOF TEST
+
+* { Q1W2_FRI_PAYDAY } [Last line] -> END
+* { Q1W2_THURS } [Last line] ->Q1W2_FRI_PAYDAY
+* { Q1W2_WED } [Last line] -> Q1W2_THURS
+
+=== POP_1
+
+POP 1 TEST
+
+* { Q1W2_FRI_PAYDAY } [Last line] -> END
+* { Q1W2_THURS } [Last line] ->Q1W2_FRI_PAYDAY
+* { Q1W2_WED } [Last line] -> Q1W2_THURS
+* { Q1W2_TUES } [Last line] ->Q1W2_WED
+
+=== POP_2
+
+POP 2 TEST
+
+* { Q1W2_FRI_PAYDAY } [Last line] -> END
+* { Q1W2_THURS } [Last line] ->Q1W2_FRI_PAYDAY
+* { Q1W2_WED } [Last line] -> Q1W2_THURS
+
+    -> END
